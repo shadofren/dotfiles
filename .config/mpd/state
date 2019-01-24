@@ -1,0 +1,448 @@
+sw_volume: 100
+audio_device_state:1:pulse audio
+audio_device_state:1:toggle_visualizer
+state: pause
+current: 323
+time: 98.658000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Chinese/Tam thon thien duong OST Bo bo kinh tam - Nghiem Nghe Dan.mp3
+1:Japanese/Akame Ga Kill! 「アカメが斬る！」 Opening Song Fulli.mp3
+2:Japanese/Attack on Titans opening theme full.mp3
+3:Others/Demons - Imagine Dragons.mp3
+4:Others/Eminem - Space Bound.mp3
+5:Japanese/Fairy tail Opening 16 Full -  BACK-ON  「STRIKE BACK」.mp3
+6:Japanese/Guilty Crown Opening 1 Full  &quot;My Dearest&quot;.mp3
+7:JJ Lin/JJ Lin - Eternal Life MV (Bu Si Zhi Sheng).mp3
+8:JJ Lin/JJ Lin - Twilight (Official HD MV).mp3
+9:Chinese/Jue Bie Shi - Yang Jia Jiang.MP3
+10:Chinese/LUong.MP3
+11:Chinese/Long Ban Tay OST Lan Lang Vuong - Dinh Dang.mp3
+12:Japanese/MAD- Love is a Beautiful Pain - Endless Tears.mp3
+13:Japanese/Nightcore - Ignite.mp3
+14:Japanese/Nightcore - Innocence (Sword Art Online OP2).mp3
+15:Japanese/Nightcore - This Game V2.mp3
+16:Nitta Emi - Sekai no Subete ga Teki da Toshitemo Chaos Rings 3 Theme Song.mp3
+17:Others/Passenger - Let Her Go (Lyrics).mp3
+18:Radical Dreamers from Chrono Cross - Full song on solo guitar.mp3
+19:Japanese/Sword Art Online - crossing field.mp3
+20:Taboo Tattoo opening FullMay n - BeliefENG SUB.mp3
+21:Chinese/Than Thoai Trang Sao - Kim Sa.mp3
+22:The Legend of Qin ____ ___ OST Theme Song____.mp3
+23:Chinese/Tieu Dao Than - Ho Ca.mp3
+24:Chinese/Yang mi - Ai de gong yang.mp3
+25:JJ Lin/[Engsub][MV] JJ Lin 林俊傑- The new perfect world.mp3
+26:JJ Lin/[Full S POP 万岁 MV] JJ Lin Jun Jie 林俊杰 - Hurray一起搖 Yi Qi Yao.mp3
+27:[LYRICS] Full How Close you Are - Miyano Mamoru ED Ajin 2016.mp3
+28:JJ Lin/[戴知纬 _ 朱雪仪] 期待爱 -- 七夕情牵中秋月--云顶情歌对唱全国大赛 2008 (Official MV).mp3
+29:___ Aaron Yan [ __ Solitary ] (___________)Official Music Video.mp3
+30:Others/_mediumNEW_Nhạc_phim_kiếm_hiệp_hay_nhất_Nghe_không_hối_hận.mp3
+31:Others/_mediumPinyin_Vietsub_10_Ca_Khúc_Nhạc_Hoa_Bất_Hủ.mp3
+32:Chinese/Zhang ying - Hua xin.mp3
+33:mirai-KOBUKURO-4476504.mp3
+34:Others/▶_Varien_SirensCeol_Moonlight_Feat_Aloma_Steele.mp3
+35:Japanese/【静止画MAD】君と歩くこの世界を【ソードアート・オンライン】.mp3
+36:JJ Lin/我為你祈禱 I Pray for You ─為八仙塵爆傷者加油  MV.mp3
+37:JJ Lin/林俊傑  愛笑的眼睛 完整版MV.mp3
+38:JJ Lin/林俊傑 JJ LIn【加油 Go!】with 熱狗 MC HotDog 官方完整版 MV.mp3
+39:JJ Lin/林俊傑 JJ LIn【記得 Remember】官方完整版 MV（張惠妹原唱）.mp3
+40:JJ Lin/林俊傑 JJ Lin -  不存在的情人Nonexistent (華納official 官方完整 HD 高畫質版 MV).mp3
+41:JJ Lin/林俊傑 JJ Lin - I am alive feat. Jason Mraz 傑森瑪耶茲 (華納 Official 高畫質 HD 官方完整版 MV).mp3
+42:JJ Lin/林俊傑 JJ Lin - Lamando 上海大眾汽車 凌渡特別誠獻 (華納 Official 高畫質 HD 官方完整版 MV).mp3
+43:JJ Lin/林俊傑 JJ Lin - Love U U (官方完整 HD 高畫質版 MV).mp3
+44:JJ Lin/林俊傑 JJ Lin - We Together (華納official 官方完整 HD 高畫質版 MV).mp3
+45:JJ Lin/林俊傑 JJ Lin - 修煉愛情 Practice Love (華納official 高畫質HD官方完整版MV).mp3
+46:JJ Lin/林俊傑 JJ Lin - 友人說 Somebody (華納official 高畫質HD官方完整版MV).mp3
+47:JJ Lin/林俊傑 JJ Lin - 因你而在 You N Me(華納official 高畫質HD官方完整版MV).mp3
+48:JJ Lin/林俊傑 JJ Lin - 學不會 Never Learn (官方完整 HD 高畫質版 MV).mp3
+49:JJ Lin/林俊傑 JJ Lin - 手心的薔薇 Beautiful feat. G.E.M. 鄧紫棋 (華納 Official 高畫質 HD 官方完整版 MV).mp3
+50:JJ Lin/林俊傑 JJ Lin - 故事細膩Romantic Mystery -(華納official 官方完整 HD 高畫質版 MV).mp3
+51:JJ Lin/林俊傑 JJ Lin - 新地球 Brave New World（華納Official 高畫質HD官方完整版MV).mp3
+52:JJ Lin/林俊傑 JJ Lin - 浪漫血液 The Romantic（華納Official 高畫質HD官方完整版MV).mp3
+53:JJ Lin/林俊傑 JJ Lin - 生生 The Beacon (華納 Official 高畫質 HD 官方完整版 MV).mp3
+54:JJ Lin/林俊傑 JJ Lin - 超越無限 Infinity And Beyond《中華電信大4G形象廣告曲》 (華納官方高清完整版MV).mp3
+55:JJ Lin/林俊傑 JJ Lin - 那些你很冒險的夢 Those Were The Days (官方完整 HD 高畫質版 MV).mp3
+56:JJ Lin/林俊傑 JJ Lin - 靈魂的共鳴 Variation 25 -Clash of The Souls (官方 HD 高畫質版 MV).mp3
+57:JJ Lin/林俊傑 JJ Lin - 黑暗騎士 The Dark Knight (華納official 高畫質HD官方完整版MV).mp3
+58:JJ Lin/林俊傑 JJ Lin -One Shot (華納official 高畫質HD官方完整版MV).mp3
+59:JJ Lin/林俊傑 JJ Lin -以後要做的事  Future Tense(華納official 高畫質HD官方完整版MV).mp3
+60:JJ Lin/林俊傑 JJ Lin -十秒的衝動10 Seconds Of Insane Bravery (華納official 高畫質HD官方完整版MV).mp3
+61:JJ Lin/林俊傑 JJ Lin -裂縫中的陽光 Before Sunrise (華納official 高畫質HD官方完整版MV).mp3
+62:JJ Lin/林俊傑 JJ Lin -零度的親吻 Frozen Kiss (華納official 高畫質HD官方完整版MV).mp3
+63:JJ Lin/林俊傑 JJ Lin -飛機Fly Back In Time (華納official 高畫質HD官方完整版MV).mp3
+64:JJ Lin/林俊傑 JJ Lin – Too Bad (華納 Official 高畫質 HD 官方完整版 MV).mp3
+65:JJ Lin/林俊傑 JJ Lin – 你，有沒有過 (LiveHouse版) Roll On (華納 Official 高畫質 HD 官方完整版 MV).mp3
+66:JJ Lin/林俊傑 JJ Lin – 只要有你的地方(晚安版) By Your Side (Bedtime) (華納 Official 高畫質 HD 官方完整版 MV).mp3
+67:JJ Lin/林俊傑 JJ Lin – 彈唱 A Song for You Till the End of Time (360 HD MV 華納Official).mp3
+68:JJ Lin/林俊傑 JJ Lin – 有夢不難 Adolescent (華納 Official 高畫質 HD 官方完整版 MV).mp3
+69:JJ Lin/林俊傑 JJ Lin – 關鍵詞 The Key (華納 Official 高畫質 HD 官方完整版 MV).mp3
+70:JJ Lin/林俊傑 JJ Lin – 黑鍵 Black Keys (華納 Official 高畫質 HD 官方完整版 MV).mp3
+71:JJ Lin/林俊傑 JJ Lin【Always Online】官方歌詞版 MV.mp3
+72:JJ Lin/林俊傑 JJ Lin【Baby Baby】官方完整版 MV.mp3
+73:JJ Lin/林俊傑 JJ Lin【Cries In A Distance】官方歌詞版 MV.mp3
+74:JJ Lin/林俊傑 JJ Lin【Down】官方歌詞版 MV.mp3
+75:JJ Lin/林俊傑 JJ Lin【I Am】官方完整版 MV.mp3
+76:JJ Lin/林俊傑 JJ Lin【K-O】官方完整版 MV.mp3
+77:JJ Lin/林俊傑 JJ Lin【L-O-V-E】官方歌詞版 MV.mp3
+78:JJ Lin/林俊傑 JJ Lin【Now That She's Gone】官方版完整 MV.mp3
+79:JJ Lin/林俊傑 JJ Lin【Sixology】官方歌詞版 MV.mp3
+80:JJ Lin/林俊傑 JJ Lin【Still Moving Under Gunfire】官方歌詞版 MV.mp3
+81:JJ Lin/林俊傑 JJ Lin【X】官方完整版 MV.mp3
+82:JJ Lin/林俊傑 JJ Lin【一千年以後 A Thousand Years Later】官方完整版 MV.mp3
+83:JJ Lin/林俊傑 JJ Lin【一生的愛】官方歌詞版 MV.mp3
+84:JJ Lin/林俊傑 JJ Lin【一眼萬年】官方歌詞版 MV.mp3
+85:JJ Lin/林俊傑 JJ Lin【不懂 I Don't Know】官方完整版 MV.mp3
+86:JJ Lin/林俊傑 JJ Lin【不死之身 Eternal Life】官方完整版 MV.mp3
+87:JJ Lin/林俊傑 JJ Lin【不流淚的機場 Flying on your Wings】官方完整版 MV.mp3
+88:JJ Lin/林俊傑 JJ Lin【不潮不用花錢 High Fashion】with By2 官方完整版 MV.mp3
+89:JJ Lin/林俊傑 JJ Lin【主角】官方歌詞版 MV.mp3
+90:JJ Lin/林俊傑 JJ Lin【你要的不是我 Scrubbed Out】官方完整版 MV.mp3
+91:JJ Lin/林俊傑 JJ Lin【保護色】官方歌詞版 MV.mp3
+92:JJ Lin/林俊傑 JJ Lin【凍結 Freeze】官方完整版 MV.mp3
+93:JJ Lin/林俊傑 JJ Lin【原來 Truth】官方完整版 MV.mp3
+94:JJ Lin/林俊傑 JJ Lin【只對你有感覺】官方歌詞版 MV.mp3
+95:JJ Lin/林俊傑 JJ Lin【只對你說  Sarang Heyo 사랑해요】官方完整版 MV.mp3
+96:JJ Lin/林俊傑 JJ Lin【壓力】官方歌詞版 MV.mp3
+97:JJ Lin/林俊傑 JJ Lin【大男人小女孩 Boyfriend Girlfriend】官方完整版 MV.mp3
+98:JJ Lin/林俊傑 JJ Lin【天使心 Heart of an Angel】官方完整版 MV.mp3
+99:JJ Lin/林俊傑 JJ Lin【她說 She Says】官方完整版 MV（孫燕姿作詞）.mp3
+100:JJ Lin/林俊傑 JJ Lin【媽媽的娜魯娃 Naruwan】官方版完整 MV.mp3
+101:JJ Lin/林俊傑 JJ Lin【媽媽的娜魯娃】官方歌詞版 MV.mp3
+102:JJ Lin/林俊傑 JJ Lin【子彈列車】官方歌詞版 MV.mp3
+103:JJ Lin/林俊傑 JJ Lin【完美新世界 Perfect World】官方完整版 MV.mp3
+104:JJ Lin/林俊傑 JJ Lin【害怕 Fear】官方完整版 MV.mp3
+105:JJ Lin/林俊傑 JJ Lin【小酒窩 Dimples】（合唱：蔡卓妍 A-Sa）官方完整版 MV.mp3
+106:JJ Lin/林俊傑 JJ Lin【就是我 I'm The One】官方完整版 MV.mp3
+107:JJ Lin/林俊傑 JJ Lin【心牆】官方歌詞版 MV.mp3
+108:JJ Lin/林俊傑 JJ Lin【愛不會絕跡】官方歌詞版 MV.mp3
+109:JJ Lin/林俊傑 JJ Lin【愛情優格 Love Yogurt】官方完整版 MV.mp3
+110:JJ Lin/林俊傑 JJ Lin【我很想愛他】官方歌詞版 MV.mp3
+111:JJ Lin/林俊傑 JJ Lin【我還想她 I Still Miss Her】官方完整版 MV.mp3
+112:JJ Lin/林俊傑 JJ Lin【握不住的他】官方歌詞版 MV.mp3
+113:JJ Lin/林俊傑 JJ Lin【明天】官方歌詞版 MV.mp3
+114:JJ Lin/林俊傑 JJ Lin【星球 Planet】官方完整版 MV.mp3
+115:JJ Lin/林俊傑 JJ Lin【星空下的吻 Heaven's Kiss】官方完整版 MV.mp3
+116:JJ Lin/林俊傑 JJ Lin【曹操 CaoCao】官方完整版 MV.mp3
+117:JJ Lin/林俊傑 JJ Lin【會有那麼一天 Someday】官方完整版 MV.mp3
+118:JJ Lin/林俊傑 JJ Lin【會讀書 Books】官方完整版 MV.mp3
+119:JJ Lin/林俊傑 JJ Lin【木乃伊 The Mummy】官方完整版 MV.mp3
+120:JJ Lin/林俊傑 JJ Lin【江南 River South】官方完整版 MV.mp3
+121:JJ Lin/林俊傑 JJ Lin【波間帶 Sign Waves】官方完整版 MV.mp3
+122:JJ Lin/林俊傑 JJ Lin【流行主教 Hurray】官方完整版 MV.mp3
+123:JJ Lin/林俊傑 JJ Lin【無法克制】官方歌詞版 MV.mp3
+124:JJ Lin/林俊傑 JJ Lin【無盡的思念 I Miss You】官方完整版 MV.mp3
+125:JJ Lin/林俊傑 JJ Lin【無聊】官方歌詞版 MV.mp3
+126:JJ Lin/林俊傑 JJ Lin【熟能生巧 Perfection】官方完整版 MV.mp3
+127:JJ Lin/林俊傑 JJ Lin【由你選擇 The Choice is Yours】with 農夫 FAMA 官方完整版 MV.mp3
+128:JJ Lin/林俊傑 JJ Lin【當你】官方歌詞版 MV.mp3
+129:JJ Lin/林俊傑 JJ Lin【發現愛 Love in the Air】（合唱：金莎）官方完整版 MV.mp3
+130:JJ Lin/林俊傑 JJ Lin【盜】官方歌詞版 MV.mp3
+131:JJ Lin/林俊傑 JJ Lin【相信無限 Infinity】官方完整版 MV.mp3
+132:JJ Lin/林俊傑 JJ Lin【真材實料的我】官方歌詞版 MV.mp3
+133:JJ Lin/林俊傑 JJ Lin【突然累了 Down Lately】官方完整版 MV.mp3
+134:JJ Lin/林俊傑 JJ Lin【第二天堂 Haven】官方完整版 MV.mp3
+135:JJ Lin/林俊傑 JJ Lin【第幾個 100 天 Hundred Days】官方完整版 MV.mp3
+136:JJ Lin/林俊傑 JJ Lin【簡簡單單 Simply】官方完整版 MV.mp3
+137:JJ Lin/林俊傑 JJ Lin【精靈 Elven Beauty】官方完整版 MV.mp3
+138:JJ Lin/林俊傑 JJ Lin【編號 89757 No. 89757】官方完整版 MV.mp3
+139:JJ Lin/林俊傑 JJ Lin【美人魚 Mermaid】官方完整版 MV.mp3
+140:JJ Lin/林俊傑 JJ Lin【美人魚】Remix Version 官方歌詞版 MV.mp3
+141:JJ Lin/林俊傑 JJ Lin【翅膀 WIngs】官方完整版 MV.mp3
+142:JJ Lin/林俊傑 JJ Lin【聽不懂沒關係】官方歌詞版 MV.mp3
+143:JJ Lin/林俊傑 JJ Lin【聽見幸福】官方歌詞版 MV.mp3
+144:JJ Lin/林俊傑 JJ Lin【背對背擁抱 Back To Back】官方完整版 MV.mp3
+145:JJ Lin/林俊傑 JJ Lin【自由不變 Freedom】官方完整版 MV.mp3
+146:JJ Lin/林俊傑 JJ Lin【莎士比亞的天份 Shakespeare's Talent】官方完整版 MV.mp3
+147:JJ Lin/林俊傑 JJ Lin【街道】官方歌詞版 MV.mp3
+148:JJ Lin/林俊傑 JJ Lin【表達愛 Show Your Love】（合唱：廖君）官方完整版 MV.mp3
+149:JJ Lin/林俊傑 JJ Lin【西界 Westside】 官方完整版 MV.mp3
+150:JJ Lin/林俊傑 JJ Lin【讓我心動的人 My Beloved】官方完整版 MV.mp3
+151:JJ Lin/林俊傑 JJ Lin【豆漿油條 Perfect Match】官方完整版 MV.mp3
+152:JJ Lin/林俊傑 JJ Lin【距離 Distance】官方完整版 MV.mp3
+153:JJ Lin/林俊傑 JJ Lin【跟屁蟲 Copycat】官方完整版 MV.mp3
+154:JJ Lin/林俊傑 JJ Lin【進化論 Metamorphosis】官方完整版 MV.mp3
+155:JJ Lin/林俊傑 JJ Lin【醉赤壁 Tales of the Red Cliff】官方完整版 MV.mp3
+156:JJ Lin/林俊傑 JJ Lin【黑武士】官方歌詞版 MV.mp3
+157:JJ Lin/林俊傑 JJ Lin【點一把火炬】官方歌詞版 MV.mp3
+158:JJ Lin/林俊傑 JJ 殺手 MV 六分鐘 限制級版.mp3
+159:JJ Lin/林俊杰-不潮不用花錢MV 正式版（BY2出演）.mp3
+160:Others/MonsterHellinthecell2009WWE_Ski.mp3
+161:Others/John Legend   All Of Me Lyrics.mp3
+162:Others/Hey there delilah lyrics..mp3
+163:YUI/[2012.10.24] YUI - SHE LOVES YOU/06. Namidairo.mp3
+164:YUI/[2012.10.24] YUI - SHE LOVES YOU/10. HELLO.mp3
+165:Chinese/Hua Qing --- Yao Bei Na.mp3
+166:YUI/[2012.10.24] YUI - SHE LOVES YOU/11. GLORIA.mp3
+167:Japanese/Akame Ga Kill! 「アカメが斬る！」 Ending Song Fulli.mp3
+168:Japanese/Black bullet- Fripside.MP3
+169:YUI/[2012.10.24] YUI - SHE LOVES YOU/04. LIFE.mp3
+170:Chinese/Nhat Niem Chap Chieu - Ho Ca A Lan.mp3
+171:Chinese/JIAN XIN.MP3
+172:YUI/[2012.10.24] YUI - SHE LOVES YOU/12. feel my soul.mp3
+173:Others/Hikari_No_Signal_Doraemon_Movie_2014_Theme_Song.mp3
+174:YUI/[2012.10.24] YUI - SHE LOVES YOU/07. My Generation.mp3
+175:Chinese/Uoc hen Nhac phim Thanh Xa Bach Xa MP3 HQ - Huynh Thanh Y Lam Phong.mp3
+176:YUI/[2012.10.24] YUI - SHE LOVES YOU/09. I remember you.mp3
+177:YUI/[2012.10.24] YUI - SHE LOVES YOU/03. Good-bye days.mp3
+178:YUI/[2012.10.24] YUI - SHE LOVES YOU/02. Tomorrow's way.mp3
+179:Chinese/Tam thon thien duong OST Bo bo kinh tam - Nghiem Nghe Dan.mp3
+180:Others/OneRepublic - Counting Stars.mp3
+181:Others/Witchcraft_Pendulum_ztb3.mp3
+182:YUI/[2012.10.24] YUI - SHE LOVES YOU/01. How crazy.mp3
+183:YUI/[2012.10.24] YUI - SHE LOVES YOU/05. Rolling star.mp3
+184:YUI/[2012.10.24] YUI - SHE LOVES YOU/08. again.mp3
+185:Chinese/Tieu Ngu Nhi Va Hoa Vo Khuyet Nhac Phim - Ta Dinh Phong.mp3
+186:Japanese/▶_TK_from_凛として時雨_Ling_Tosite_Sigure_unravel.mp3
+187:YUI/[2007.04.04] YUI - CAN'T BUY MY LOVE/01. How crazy.mp3
+188:YUI/[2007.04.04] YUI - CAN'T BUY MY LOVE/02. Rolling star.mp3
+189:YUI/[2007.04.04] YUI - CAN'T BUY MY LOVE/03. It's all right.mp3
+190:YUI/[2007.04.04] YUI - CAN'T BUY MY LOVE/04. I remember you.mp3
+191:YUI/[2007.04.04] YUI - CAN'T BUY MY LOVE/05. RUIDO.mp3
+192:YUI/[2007.04.04] YUI - CAN'T BUY MY LOVE/06. CHE.R.RY.mp3
+193:YUI/[2007.04.04] YUI - CAN'T BUY MY LOVE/07. Thank you My teens.mp3
+194:YUI/[2007.04.04] YUI - CAN'T BUY MY LOVE/08. Umbrella.mp3
+195:YUI/[2007.04.04] YUI - CAN'T BUY MY LOVE/10. Happy Birthday to you you.mp3
+196:YUI/[2007.04.04] YUI - CAN'T BUY MY LOVE/11. Winding road.mp3
+197:YUI/[2007.04.04] YUI - CAN'T BUY MY LOVE/12. Good-bye days.mp3
+198:YUI/[2007.04.04] YUI - CAN'T BUY MY LOVE/13. Why.mp3
+199:YUI/[2004.12.24] YUI - It's Happy Line/01. It's Happy Line.mp3
+200:YUI/[2004.12.24] YUI - It's Happy Line/02. I know.mp3
+201:YUI/[2005.02.23] YUI - feel my soul/01. feel my soul.mp3
+202:YUI/[2005.02.23] YUI - feel my soul/02. Free Bird.mp3
+203:YUI/[2005.02.23] YUI - feel my soul/03. Why me.mp3
+204:YUI/[2005.02.23] YUI - feel my soul/04. feel my soul -Instrumental-.mp3
+205:YUI/[2005.11.09] YUI - LIFE/01. LIFE.mp3
+206:YUI/[2005.11.09] YUI - LIFE/02. crossroad.mp3
+207:YUI/[2005.11.09] YUI - LIFE/03. Tomorrow's way ~YUI Acoustic Version~.mp3
+208:YUI/[2005.11.09] YUI - LIFE/04. LIFE~Instrumental~.mp3
+209:YUI/[2005.06.22] YUI - Tomorrow's Way/01. Tomorrow's way.mp3
+210:YUI/[2005.06.22] YUI - Tomorrow's Way/02. Last Train.mp3
+211:YUI/[2005.06.22] YUI - Tomorrow's Way/03. Feel My Soul ~YUI Acoustic Version~.mp3
+212:YUI/[2005.06.22] YUI - Tomorrow's Way/04. Tomorrow's way ~Instrumental~.mp3
+213:YUI/[2006.02.22] YUI - FROM ME TO YOU/01. Merry·Go·Round.mp3
+214:YUI/[2006.02.22] YUI - FROM ME TO YOU/02. feel my soul.mp3
+215:YUI/[2006.02.22] YUI - FROM ME TO YOU/03. Ready to love.mp3
+216:YUI/[2006.02.22] YUI - FROM ME TO YOU/04. Swing of lie.mp3
+217:YUI/[2006.02.22] YUI - FROM ME TO YOU/05. LIFE.mp3
+218:YUI/[2006.02.22] YUI - FROM ME TO YOU/06. Blue wind.mp3
+219:YUI/[2006.02.22] YUI - FROM ME TO YOU/07. I can't say.mp3
+220:YUI/[2006.02.22] YUI - FROM ME TO YOU/08. Simply white.mp3
+221:YUI/[2006.02.22] YUI - FROM ME TO YOU/09. Just my way.mp3
+222:YUI/[2006.02.22] YUI - FROM ME TO YOU/10. Tomorrow's way.mp3
+223:YUI/[2006.02.22] YUI - FROM ME TO YOU/11. I know.mp3
+224:YUI/[2006.02.22] YUI - FROM ME TO YOU/12. TOKYO.mp3
+225:YUI/[2006.02.22] YUI - FROM ME TO YOU/13. Spiral & Escape.mp3
+226:YUI/[2006.06.14] YUI - Good-bye days/01. Good-bye days.mp3
+227:YUI/[2006.06.14] YUI - Good-bye days/02. Skyline.mp3
+228:YUI/[2006.06.14] YUI - Good-bye days/03. It's happy line.mp3
+229:YUI/[2006.06.14] YUI - Good-bye days/04. Good-bye days ~Instrumental~.mp3
+230:YUI/[2006.09.20] YUI - I remember you/01. I remember you.mp3
+231:YUI/[2006.09.20] YUI - I remember you/02. Cloudy.mp3
+232:YUI/[2006.09.20] YUI - I remember you/03. Good-bye days ~YUI Acoustic Version~.mp3
+233:YUI/[2006.09.20] YUI - I remember you/04. I remember you ~Instrumental~.mp3
+234:YUI/[2006.01.18] YUI - TOKYO/01. TOKYO.mp3
+235:YUI/[2006.01.18] YUI - TOKYO/02. HELP.mp3
+236:YUI/[2006.01.18] YUI - TOKYO/03. LIFE ~YUI Acoustic Version~.mp3
+237:YUI/[2006.01.18] YUI - TOKYO/04. TOKYO ~Instrumental~.mp3
+238:YUI/[2007.04.04] YUI - CAN'T BUY MY LOVE/09. Highway chance.mp3
+239:YUI/[2007.03.07] YUI - CHE.R.RY/01. CHE.R.RY.mp3
+240:YUI/[2007.03.07] YUI - CHE.R.RY/02. Driving today.mp3
+241:YUI/[2007.03.07] YUI - CHE.R.RY/03. Rolling star ~YUI Acoustic Version~.mp3
+242:YUI/[2007.03.07] YUI - CHE.R.RY/04. CHE.R.RY ~Instrumental~.mp3
+243:YUI/[2007.09.26] YUI - LOVE & TRUTH/01. LOVE & TRUTH.mp3
+244:YUI/[2007.09.26] YUI - LOVE & TRUTH/02. Jam.mp3
+245:YUI/[2007.09.26] YUI - LOVE & TRUTH/03. My Generation ''YUI Acoustic Version''.mp3
+246:YUI/[2007.09.26] YUI - LOVE & TRUTH/04. LOVE & TRUTH ''Instrumental''.mp3
+247:YUI/[2007.06.13] YUI - My Generation - Understand/01. My Generation.mp3
+248:YUI/[2007.06.13] YUI - My Generation - Understand/02. Understand.mp3
+249:YUI/[2007.06.13] YUI - My Generation - Understand/03. CHE.R.RY ~YUI Acoustic Version~.mp3
+250:YUI/[2007.06.13] YUI - My Generation - Understand/04. My Generation ~Instrumental~.mp3
+251:YUI/[2007.01.17] YUI - Rolling star/01. Rolling star.mp3
+252:YUI/[2007.01.17] YUI - Rolling star/02. Winter Hot Music.mp3
+253:YUI/[2007.01.17] YUI - Rolling star/03. I remember you ~YUI Acoustic Version~.mp3
+254:YUI/[2007.01.17] YUI - Rolling star/04. Rolling star ~Instrumental~.mp3
+255:YUI/[2008.04.09] YUI - I LOVED YESTERDAY/01. Laugh away.mp3
+256:YUI/[2008.04.09] YUI - I LOVED YESTERDAY/02. My Generation.mp3
+257:YUI/[2008.04.09] YUI - I LOVED YESTERDAY/03. Find me.mp3
+258:YUI/[2008.04.09] YUI - I LOVED YESTERDAY/04. No way.mp3
+259:YUI/[2008.04.09] YUI - I LOVED YESTERDAY/05. Namidairo.mp3
+260:YUI/[2008.04.09] YUI - I LOVED YESTERDAY/06. Daydreamer.mp3
+261:YUI/[2008.04.09] YUI - I LOVED YESTERDAY/07. Love is all.mp3
+262:YUI/[2008.04.09] YUI - I LOVED YESTERDAY/08. I will love you.mp3
+263:YUI/[2008.04.09] YUI - I LOVED YESTERDAY/09. We will go.mp3
+264:YUI/[2008.04.09] YUI - I LOVED YESTERDAY/10. OH YEAH.mp3
+265:YUI/[2008.04.09] YUI - I LOVED YESTERDAY/11. My friend.mp3
+266:YUI/[2008.04.09] YUI - I LOVED YESTERDAY/12. LOVE & TRUTH.mp3
+267:YUI/[2008.04.09] YUI - I LOVED YESTERDAY/13. Am I wrong.mp3
+268:YUI/[2008.11.12] YUI - MY SHORT STORIES/01. I'll be.mp3
+269:YUI/[2008.11.12] YUI - MY SHORT STORIES/02. HELP.mp3
+270:YUI/[2008.11.12] YUI - MY SHORT STORIES/03. Last Train.mp3
+271:YUI/[2008.11.12] YUI - MY SHORT STORIES/04. Winter Hot Music.mp3
+272:YUI/[2008.11.12] YUI - MY SHORT STORIES/05. Jam.mp3
+273:YUI/[2008.11.12] YUI - MY SHORT STORIES/06. Skyline.mp3
+274:YUI/[2008.11.12] YUI - MY SHORT STORIES/07. Free Bird.mp3
+275:YUI/[2008.11.12] YUI - MY SHORT STORIES/08. I wanna be....mp3
+276:YUI/[2008.11.12] YUI - MY SHORT STORIES/09. Oh My God.mp3
+277:YUI/[2008.11.12] YUI - MY SHORT STORIES/10. Cloudy.mp3
+278:YUI/[2008.11.12] YUI - MY SHORT STORIES/11. Driving today.mp3
+279:YUI/[2008.11.12] YUI - MY SHORT STORIES/12. Understand.mp3
+280:YUI/[2008.11.12] YUI - MY SHORT STORIES/13. crossroad.mp3
+281:YUI/[2008.11.12] YUI - MY SHORT STORIES/14. It's happy line.mp3
+282:YUI/[2008.11.12] YUI - MY SHORT STORIES/15. Why me.mp3
+283:YUI/[2008.02.27] YUI - Namidairo/01. Namidairo.mp3
+284:YUI/[2008.02.27] YUI - Namidairo/02. I wanna be....mp3
+285:YUI/[2008.02.27] YUI - Namidairo/03. LOVE & TRUTH ~YUI Acoustic Version~.mp3
+286:YUI/[2008.02.27] YUI - Namidairo/04. Namidairo ~Instrumental~.mp3
+287:YUI/[2008.07.02] YUI - SUMMER SONG/01. SUMMER SONG.mp3
+288:YUI/[2008.07.02] YUI - SUMMER SONG/02. Oh My God.mp3
+289:YUI/[2008.07.02] YUI - SUMMER SONG/03. Laugh Away -YUI Acoustic Version-.mp3
+290:YUI/[2008.07.02] YUI - SUMMER SONG/04. SUMMER SONG -Instrumental-.mp3
+291:YUI/[2009.06.03] YUI - again/01. again.mp3
+292:YUI/[2009.06.03] YUI - again/02. Sea.mp3
+293:YUI/[2009.06.03] YUI - again/03. SUMMER SONG ~YUI Acoustic Version~.mp3
+294:YUI/[2009.06.03] YUI - again/04. again ~Instrumental~.mp3
+295:YUI/[2009.10.07] YUI - It's all too much - Never say die/01. It's all too much.mp3
+296:YUI/[2009.10.07] YUI - It's all too much - Never say die/02. Never say die.mp3
+297:YUI/[2009.10.07] YUI - It's all too much - Never say die/03. again ~YUI Acoustic Version~.mp3
+298:YUI/[2009.10.07] YUI - It's all too much - Never say die/04. It's all too much ~Instrumental~.mp3
+299:YUI/[2010.01.20] YUI - GLORIA/01. GLORIA.mp3
+300:YUI/[2010.01.20] YUI - GLORIA/02. Muffler.mp3
+301:YUI/[2010.01.20] YUI - GLORIA/03. It's all too much ~YUI Acoustic Version~.mp3
+302:YUI/[2010.01.20] YUI - GLORIA/04. GLORIA  ~Instrumental~.mp3
+303:YUI/[2010.07.14] YUI - HOLIDAYS IN THE SUN/01. to Mother.mp3
+304:YUI/[2010.07.14] YUI - HOLIDAYS IN THE SUN/02. again.mp3
+305:YUI/[2010.07.14] YUI - HOLIDAYS IN THE SUN/03. Parade.mp3
+306:YUI/[2010.07.14] YUI - HOLIDAYS IN THE SUN/04. es.car.mp3
+307:YUI/[2010.07.14] YUI - HOLIDAYS IN THE SUN/05. Shake My Heart.mp3
+308:YUI/[2010.07.14] YUI - HOLIDAYS IN THE SUN/06. GLORIA.mp3
+309:YUI/[2010.07.14] YUI - HOLIDAYS IN THE SUN/07. I do it.mp3
+310:YUI/[2010.07.14] YUI - HOLIDAYS IN THE SUN/08. Please Stay With Me.mp3
+311:YUI/[2010.07.14] YUI - HOLIDAYS IN THE SUN/09. Summer Song.mp3
+312:YUI/[2010.07.14] YUI - HOLIDAYS IN THE SUN/10. Cinnamon.mp3
+313:YUI/[2010.07.14] YUI - HOLIDAYS IN THE SUN/11. Driving Happy Life.mp3
+314:YUI/[2010.07.14] YUI - HOLIDAYS IN THE SUN/12. It's all too much.mp3
+315:YUI/[2010.07.14] YUI - HOLIDAYS IN THE SUN/13. Kiss me.mp3
+316:YUI/[2010.11.24] YUI - Rain/01. Rain.mp3
+317:YUI/[2010.11.24] YUI - Rain/02. a room.mp3
+318:YUI/[2010.11.24] YUI - Rain/03. How crazy ~YUI Acoustic Version~.mp3
+319:YUI/[2010.11.24] YUI - Rain/04. Rain ~Instrumental~.mp3
+320:YUI/[2010.06.02] YUI - to Mother/01. to Mother.mp3
+321:YUI/[2010.06.02] YUI - to Mother/02. Tonight.mp3
+322:YUI/[2010.06.02] YUI - to Mother/03. GLORIA ~YUI Acoustic Version~.mp3
+323:YUI/[2010.06.02] YUI - to Mother/04. to Mother ~Instrumental~.mp3
+324:YUI/[2011.10.05] YUI - Green a.live/01 Green a.live.mp3
+325:YUI/[2011.10.05] YUI - Green a.live/02 Let's face it.mp3
+326:YUI/[2011.10.05] YUI - Green a.live/03 HELLO ～YUI Acoustic Version～.mp3
+327:YUI/[2011.10.05] YUI - Green a.live/04 Green a.live ～Instrumental～.mp3
+328:YUI/[2011.06.01] YUI - HELLO ~Paradise Kiss~/01. HELLO ~Paradise Kiss~.mp3
+329:YUI/[2011.06.01] YUI - HELLO ~Paradise Kiss~/02. YOU.mp3
+330:YUI/[2011.06.01] YUI - HELLO ~Paradise Kiss~/03. It's My Life ~YUI Acoustic Version~.mp3
+331:YUI/[2011.06.01] YUI - HELLO ~Paradise Kiss~/04. HELLO ~Instrumental~.mp3
+332:YUI/[2011.11.02] YUI - HOW CRAZY YOUR LOVE/01. HELLO.mp3
+333:YUI/[2011.11.02] YUI - HOW CRAZY YOUR LOVE/02. Separation.mp3
+334:YUI/[2011.11.02] YUI - HOW CRAZY YOUR LOVE/03. Get Back Home.mp3
+335:YUI/[2011.11.02] YUI - HOW CRAZY YOUR LOVE/04. Lock On.mp3
+336:YUI/[2011.11.02] YUI - HOW CRAZY YOUR LOVE/05. U-niform.mp3
+337:YUI/[2011.11.02] YUI - HOW CRAZY YOUR LOVE/06. Cooking.mp3
+338:YUI/[2011.11.02] YUI - HOW CRAZY YOUR LOVE/07. Rain.mp3
+339:YUI/[2011.11.02] YUI - HOW CRAZY YOUR LOVE/08. Good night.mp3
+340:YUI/[2011.11.02] YUI - HOW CRAZY YOUR LOVE/09. YOU.mp3
+341:YUI/[2011.11.02] YUI - HOW CRAZY YOUR LOVE/10. It's My Life.mp3
+342:YUI/[2011.11.02] YUI - HOW CRAZY YOUR LOVE/11. no Reason.mp3
+343:YUI/[2011.11.02] YUI - HOW CRAZY YOUR LOVE/12. Nobody Knows.mp3
+344:YUI/[2011.11.02] YUI - HOW CRAZY YOUR LOVE/13. Green a.live.mp3
+345:YUI/[2011.01.26] YUI - It's My Life - Your Heaven/01. It's My Life.mp3
+346:YUI/[2011.01.26] YUI - It's My Life - Your Heaven/02. Your Heaven.mp3
+347:YUI/[2011.01.26] YUI - It's My Life - Your Heaven/03. Rain ~YUI Acoustic Version~.mp3
+348:YUI/[2011.01.26] YUI - It's My Life - Your Heaven/04. It's My Life ~Instrumental~.mp3
+349:YUI/[2012.09.05] YUI - Fight/04 fight ~Instrumental~.mp3
+350:YUI/[2012.12.05] YUI - GREEN GARDEN POP/01. HELLO.mp3
+351:YUI/[2012.12.05] YUI - GREEN GARDEN POP/02. How Crazy.mp3
+352:YUI/[2012.12.05] YUI - GREEN GARDEN POP/03. again.mp3
+353:YUI/[2012.12.05] YUI - GREEN GARDEN POP/04. LIFE.mp3
+354:YUI/[2012.12.05] YUI - GREEN GARDEN POP/05. Laugh away.mp3
+355:YUI/[2012.12.05] YUI - GREEN GARDEN POP/06. My Generation.mp3
+356:YUI/[2012.12.05] YUI - GREEN GARDEN POP/07. Shake My Heart.mp3
+357:YUI/[2012.12.05] YUI - GREEN GARDEN POP/08. Rolling Star.mp3
+358:YUI/[2012.12.05] YUI - GREEN GARDEN POP/09. Namidairo.mp3
+359:YUI/[2012.12.05] YUI - GREEN GARDEN POP/10. I do it.mp3
+360:YUI/[2012.12.05] YUI - GREEN GARDEN POP/11. I remember you.mp3
+361:YUI/[2012.12.05] YUI - GREEN GARDEN POP/12. Green a.live.mp3
+362:YUI/[2012.12.05] YUI - GREEN GARDEN POP/13. It's all too much.mp3
+363:YUI/[2012.12.05] YUI - GREEN GARDEN POP/14. Please Stay With Me.mp3
+364:YUI/[2012.12.05] YUI - GREEN GARDEN POP/15. fight.mp3
+365:YUI/[2012.12.05] YUI - GREEN GARDEN POP/16. Your Heaven.mp3
+366:YUI/[2012.12.05] YUI - GREEN GARDEN POP/17. YOU.mp3
+367:YUI/[2012.12.05] YUI - GREEN GARDEN POP/18. Good-bye Days.mp3
+368:YUI/[2012.12.05] YUI - ORANGE GARDEN POP/01. CHE.R.RY.mp3
+369:YUI/[2012.12.05] YUI - ORANGE GARDEN POP/02. feel my soul.mp3
+370:YUI/[2012.12.05] YUI - ORANGE GARDEN POP/03. GLORIA.mp3
+371:YUI/[2012.12.05] YUI - ORANGE GARDEN POP/04. to Mother.mp3
+372:YUI/[2012.12.05] YUI - ORANGE GARDEN POP/05. Merry・Go・Round.mp3
+373:YUI/[2012.12.05] YUI - ORANGE GARDEN POP/06. Tomorrow's Way.mp3
+374:YUI/[2012.12.05] YUI - ORANGE GARDEN POP/07. I'll be.mp3
+375:YUI/[2012.12.05] YUI - ORANGE GARDEN POP/08. OH YEAH.mp3
+376:YUI/[2012.12.05] YUI - ORANGE GARDEN POP/09. Rain.mp3
+377:YUI/[2012.12.05] YUI - ORANGE GARDEN POP/10. Never say die.mp3
+378:YUI/[2012.12.05] YUI - ORANGE GARDEN POP/11. es.car.mp3
+379:YUI/[2012.12.05] YUI - ORANGE GARDEN POP/12. SUMMER SONG.mp3
+380:YUI/[2012.12.05] YUI - ORANGE GARDEN POP/13. Happy Birthday to you you.mp3
+381:YUI/[2012.12.05] YUI - ORANGE GARDEN POP/14. Understand.mp3
+382:YUI/[2012.12.05] YUI - ORANGE GARDEN POP/15. Separation.mp3
+383:YUI/[2012.12.05] YUI - ORANGE GARDEN POP/16. It's My Life.mp3
+384:YUI/[2012.12.05] YUI - ORANGE GARDEN POP/17. LOVE & TRUTH.mp3
+385:YUI/[2012.12.05] YUI - ORANGE GARDEN POP/18. TOKYO.mp3
+386:YUI/[2012.10.24] YUI - SHE LOVES YOU/13. CHE.R.RY ~Bossa Live Version~.mp3
+387:YUI/[2012.09.05] YUI - Fight/03 Happy Birthday to you you ~YUI Acoustic Version~.mp3
+388:YUI/[2012.09.05] YUI - Fight/02 If you.mp3
+389:YUI/[2012.09.05] YUI - Fight/01 fight.mp3
+390:Japanese/Arslan Senki OP Lapis Lazuli.mp3
+391:Chinese/Love Me Nhac phim Tan Tieu Ngao Giang Ho - Vien San San.mp3
+392:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+393:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+394:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+395:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+396:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+397:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+398:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+399:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+400:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+401:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+402:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+403:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+404:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+405:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+406:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+407:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+408:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+409:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+410:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+411:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+412:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+413:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+414:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+415:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+416:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+417:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+418:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+419:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+420:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+421:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+422:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+423:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+424:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+425:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+426:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+427:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+428:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+429:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+430:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+431:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+432:Chinese/Thien Nhai Nguyet Minh Dao - Dong Han Luong.mp3
+playlist_end
