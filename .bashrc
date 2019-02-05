@@ -41,6 +41,8 @@ alias bw="wal -i ~/.config/wall.png" # Rerun pywal
 alias yu="yay -Syu"
 alias yc="yay -Yc"
 alias cdgo="cd /home/yuu/dev/go_projects/learning/src"
+alias pvpn="sudo protonvpn-cli -c"
+alias pvpnd="sudo protonvpn-cli -d"
 
 # Adding color
 alias ls='ls -hN --color=auto --group-directories-first'

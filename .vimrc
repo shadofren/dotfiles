@@ -7,11 +7,11 @@
 let mapleader =" "
 
 call plug#begin('~/.vim/plugged')
-Plug 'junegunn/goyo.vim'
 Plug 'PotatoesMaster/i3-vim-syntax'
 Plug 'jreybert/vimagit'
 Plug 'fatih/vim-go'
 call plug#end()
+
 
 " Some basics:
 	set nocompatible
@@ -23,9 +23,6 @@ call plug#end()
 	set wildmode=longest,list,full
 " Disables automatic commenting on newline:
 	autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
-
-" Goyo plugin makes text more readable when writing prose:
-	map <leader>f :Goyo \| set linebreak<CR>
 
 " Spell-check set to <leader>o, 'o' for 'orthography':
 	map <leader>o :setlocal spell! spelllang=en_us<CR>
@@ -39,19 +36,9 @@ call plug#end()
 	map <C-k> <C-w>k
 	map <C-l> <C-w>l
 
-" Check file in shellcheck:
-	map <leader>s :!clear && shellcheck %<CR>
-
-" Compile document, be it groff/LaTeX/markdown/etc.
-	map <leader>c :w! \| !compiler <c-r>%<CR><CR>
-
-" Open corresponding .pdf/.html or preview
-	map <leader>p :!opout <c-r>%<CR><CR>
-
 " Ensure files are read as what I want:
 	autocmd BufRead,BufNewFile /tmp/calcurse*,~/.calcurse/notes/* set filetype=markdown
 	autocmd BufRead,BufNewFile *.ms,*.me,*.mom,*.man set filetype=groff
-	autocmd BufRead,BufNewFile *.tex set filetype=tex
 
 " Readmes autowrap text:
 	autocmd BufRead,BufNewFile *.md set tw=79
