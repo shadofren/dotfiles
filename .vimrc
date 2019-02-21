@@ -1,5 +1,4 @@
-"        _
-" __   _(_)_ __ ___  _ __ ___
+
 " \ \ / / | '_ ` _ \| '__/ __|
 "  \ V /| | | | | | | | | (__
 "   \_/ |_|_| |_| |_|_|  \___|
@@ -10,8 +9,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'PotatoesMaster/i3-vim-syntax'
 Plug 'jreybert/vimagit'
 Plug 'fatih/vim-go'
+Plug 'junegunn/fzf'
 call plug#end()
-
 
 " Some basics:
 	set nocompatible
@@ -81,3 +80,6 @@ let g:go_highlight_variable_assignments = 1
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+" fuzzy find
+nnoremap <leader>f :<C-u>FZF<CR>

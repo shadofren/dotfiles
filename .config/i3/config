@@ -433,6 +433,8 @@ workspace $ws9 output HDMI2
 workspace $ws10 output HDMI2
 
 assign [class="Firefox"] $ws3
+assign [class="Steam"] $ws9
+assign [class="dota2"] $ws10
 
 exec_always xrandr --output eDP1 --auto --left-of HDMI2
 exec --no-startup-id redshiftgui

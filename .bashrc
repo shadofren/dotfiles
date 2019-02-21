@@ -40,9 +40,9 @@ alias bw="wal -i ~/.config/wall.png" # Rerun pywal
 
 alias yu="yay -Syu"
 alias yc="yay -Yc"
-alias cdgo="cd /home/yuu/dev/go_projects/learning/src"
-alias pvpn="sudo protonvpn-cli -c"
-alias pvpnd="sudo protonvpn-cli -d"
+alias cdgo="cd /home/yuu/dev/golang"
+alias vc="sudo protonvpn-cli -c"
+alias vd="sudo protonvpn-cli -d"
 
 # Adding color
 alias ls='ls -hN --color=auto --group-directories-first'
@@ -59,3 +59,5 @@ shdl() { curl -O $(curl -s http://sci-hub.tw/"$@" | grep location.href | grep -o
 vf() { $EDITOR $(fzf) ;}
 
 export PATH=$PATH:/opt/anaconda/bin
+export GOPATH=~/dev/golang/chitchat
+export GOBIN=~/dev/golang/chitchat/bin
