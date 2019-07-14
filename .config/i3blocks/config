@@ -15,10 +15,10 @@ signal=11
 [temperature]
 interval=10
 
-[news]
-label=📰
-interval=once
-signal=6
+#[news]
+#label=📰
+#interval=once
+#signal=6
 
 [pacpackages]
 label=📦

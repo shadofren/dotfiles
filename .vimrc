@@ -10,6 +10,7 @@ Plug 'PotatoesMaster/i3-vim-syntax'
 Plug 'jreybert/vimagit'
 Plug 'fatih/vim-go'
 Plug 'junegunn/fzf'
+Plug 'tell-k/vim-autopep8'
 call plug#end()
 
 " Some basics:
@@ -77,9 +78,19 @@ let g:go_highlight_variable_declarations = 1
 let g:go_highlight_variable_assignments = 1
 
 " tabsize
-set tabstop=4
-set shiftwidth=4
+set autoindent
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set expandtab
 
 " fuzzy find
 nnoremap <leader>f :<C-u>FZF<CR>
+
+" autopep8 for python code formatting
+let g:autopep8_indent_size=2
+let g:autopep8_on_save = 1
+let g:autopep8_disable_show_diff=1
+
+" run python file on save
+autocmd BufWritePost *.py exec '!python' shellescape(@%, 1)

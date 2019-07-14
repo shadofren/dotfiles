@@ -43,6 +43,7 @@ alias yc="yay -Yc"
 alias cdgo="cd /home/yuu/dev/golang"
 alias vc="sudo protonvpn-cli -c"
 alias vd="sudo protonvpn-cli -d"
+alias psql="psql -h /home/yuu/postgres/data/postgresql"
 
 # Adding color
 alias ls='ls -hN --color=auto --group-directories-first'
@@ -59,5 +60,6 @@ shdl() { curl -O $(curl -s http://sci-hub.tw/"$@" | grep location.href | grep -o
 vf() { $EDITOR $(fzf) ;}
 
 export PATH=$PATH:/opt/anaconda/bin
-export GOPATH=~/dev/golang/chitchat
-export GOBIN=~/dev/golang/chitchat/bin
+export GOPATH=/home/yuu/dev/golang
+export GOBIN=/home/yuu/dev/golang/bin
+export PATH=$PATH:$GOBIN

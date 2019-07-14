@@ -435,9 +435,12 @@ workspace $ws10 output HDMI2
 assign [class="Firefox"] $ws3
 assign [class="Steam"] $ws9
 assign [class="dota2"] $ws10
+assign [class="TelegramDesktop"] $ws4
+assign [class="Transmission-gtk"] $ws5
 
 exec_always xrandr --output eDP1 --auto --left-of HDMI2
 exec --no-startup-id redshiftgui
 exec --no-startup-id dropbox
 exec firefox
-exec $term
+exec telegram-desktop
+exec $term -e ranger ~/Downloads
