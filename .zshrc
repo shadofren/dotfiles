@@ -44,6 +44,9 @@ alias cdgo="cd /home/yuu/dev/golang"
 alias vc="sudo protonvpn-cli -c"
 alias vd="sudo protonvpn-cli -d"
 alias psql="psql -h /home/yuu/postgres/data/postgresql"
+alias vmplayer="sudo vmplayer &"
+alias vboxstart="vboxmanage startvm"
+alias vboxlist="vboxmanage list vms"
 
 alias grep="grep --color=auto"
 alias diff="diff --color=auto"
@@ -52,6 +55,8 @@ alias diff="diff --color=auto"
 alias yt="youtube-dl --add-metadata -ic" # Download video link
 alias yta="yt -x -f bestaudio/best" # Download only audio
 alias YT="youtube-viewer"
+alias setclip="xclip -selection c"
+alias getclip="xclip -selection c -o"
 
 # GDB
 alias gdbbt="gdb --batch --ex run --ex bt --ex q --args"
@@ -63,6 +68,5 @@ export GOPATH=/home/yuu/dev/golang
 export GOBIN=/home/yuu/dev/golang/bin
 export PATH=$PATH:$GOBIN
 
-
-
-
+export AWS_ACCESS_KEY_ID=AKIARKE3J3HBMPMHDSXM
+export AWS_SECRET_ACCESS_KEY=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

@@ -11,6 +11,7 @@ Plug 'jreybert/vimagit'
 Plug 'fatih/vim-go'
 Plug 'junegunn/fzf'
 Plug 'tell-k/vim-autopep8'
+Plug 'hashivim/vim-terraform'
 call plug#end()
 
 " Some basics:
@@ -94,3 +95,6 @@ let g:autopep8_disable_show_diff=1
 
 " run python file on save
 autocmd BufWritePost *.py exec '!python' shellescape(@%, 1)
+
+" vim-terraform
+let g:terraform_fmt_on_save=1

@@ -66,4 +66,4 @@ export PATH=$PATH:/opt/anaconda/bin
 export GOPATH=/home/yuu/dev/golang
 export GOBIN=/home/yuu/dev/golang/bin
 export PATH=$PATH:$GOBIN
-
+export VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/nvidia_icd.json:/usr/share/vulkan/icd.d/nv_vulkan_wrapper.json
