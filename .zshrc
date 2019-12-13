@@ -67,6 +67,3 @@ export PATH=$PATH:/opt/anaconda/bin
 export GOPATH=/home/yuu/dev/golang
 export GOBIN=/home/yuu/dev/golang/bin
 export PATH=$PATH:$GOBIN
-
-export AWS_ACCESS_KEY_ID=AKIARKE3J3HBMPMHDSXM
-export AWS_SECRET_ACCESS_KEY=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
