@@ -75,7 +75,7 @@ client.urgent		$darkred	$darkred	$black		$darkred		$darkred
 client.background $black
 
 bar {
-	font pango:mono 16
+	font pango:Monospace Bold 16
 	colors {
 			background $darkblack
 			statusline $darkwhite

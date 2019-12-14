@@ -1,6 +1,6 @@
 command=~/.scripts/statusbar/$BLOCK_NAME
 separator_block_width=15
-markup=pango
+#markup=pango
 
 [record]
 command=cat ~/.recordingicon
