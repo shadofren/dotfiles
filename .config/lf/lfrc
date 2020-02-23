@@ -48,6 +48,8 @@ cmd zip ${{
     rm -rf $1
 }}
 
+map m
+
 map . set hidden!
 map D delete
 map x extract
@@ -59,11 +61,4 @@ map O $mimeopen --ask $f
 map R reload
 
 # Movement
-map gD cd ~/Downloads
-map gb cd ~/books_tuts/Others
-
-map gs. cd ~/.scripts
-map gsl cd ~/.scripts/lf
-
-map gc cd ~/.config
-
+source ~/.config/lf/shortcuts
