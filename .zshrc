@@ -61,6 +61,10 @@ alias getclip="xclip -selection c -o"
 # GDB
 alias gdbbt="gdb --batch --ex run --ex bt --ex q --args"
 
+# Capture
+alias scrot="scrot -q 100"
+alias scrots="scrot -q 100 -s"
+
 vf() { $EDITOR $(fzf) ;}
 
 export PATH=$PATH:/opt/anaconda/bin

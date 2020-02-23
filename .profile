@@ -5,7 +5,7 @@
 export PATH="$(du "$HOME/.scripts/" | cut -f2 | tr '\n' ':')$PATH"
 export EDITOR="vim"
 export TERMINAL="terminator"
-export BROWSER="firefox"
+export BROWSER="brave"
 export READER="zathura"
 # PIX is here I have LARBS keep icons. Subject to change, hence a variable.
 export PIX="$HOME/.scripts/pix"

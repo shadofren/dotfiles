@@ -415,16 +415,24 @@ workspace $ws9 output HDMI2
 workspace $ws10 output HDMI2
 
 assign [class="firefox"] $ws3
+assign [class="brave-browser"] $ws3
+assign [class="Brave-browser"] $ws3
 assign [class="Steam"] $ws9
 assign [class="dota2"] $ws10
 assign [class="TelegramDesktop"] $ws4
+assign [class="discord"] $ws4
 assign [class="Transmission-gtk"] $ws6
 assign [class="code-oss"] $ws5
 assign [class="jetbrains-idea-ce"] $ws5
+assign [class="VirtualBox Manager"] $ws9
+assign [class="cherrytree"] $ws1
 
 exec_always xrandr --output eDP1 --auto --left-of HDMI2
 exec --no-startup-id redshiftgui
 exec --no-startup-id dropbox
-exec firefox
+exec brave
+# exec firefox
 exec telegram-desktop
 exec $term -e "ranger ~/Downloads"
+exec discord
+exec cherrytree
