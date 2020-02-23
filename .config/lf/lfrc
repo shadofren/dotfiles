@@ -1,0 +1,69 @@
+set shell sh
+set color256
+set icons true
+set drawbox true
+set shellopts '-eu'
+set ifs "\n"
+set scrolloff 10
+
+set preview false
+set previewer ~/.scripts/lf/preview
+
+cmd open ${{
+    case $(file --mime-type $f -b) in
+        text/*) $EDITOR $fx;;
+        *) for f in $fx; do setsid $OPENER $f > /dev/null 2> /dev/null & done;;
+    esac
+}}
+
+# cmd trash %set -f; mv $fx ~/.trash
+cmd delete ${{
+    set -f
+    printf "$fx\n"
+    printf "delete?[y/n]"
+    read ans
+    [ $ans = "y" ] && rm -rf $fx
+}}
+
+cmd extract ${{
+    set -f
+    /home/yuu/.scripts/tools/extract $f
+}}
+
+# compress current file or selected files with tar and gunzip
+cmd tar ${{
+    set -f
+    mkdir $1
+    cp -r $fx $1
+    tar czf $1.tar.gz $1
+    rm -rf $1
+}}
+
+# compress current file or selected files with zip
+cmd zip ${{
+    set -f
+    mkdir $1
+    cp -r $fx $1
+    zip -r $1.zip $1
+    rm -rf $1
+}}
+
+map . set hidden!
+map D delete
+map x extract
+map a push %mkdir<space>
+map r push :rename<space>
+map <enter> shell
+map o &mimeopen $f
+map O $mimeopen --ask $f
+map R reload
+
+# Movement
+map gD cd ~/Downloads
+map gb cd ~/books_tuts/Others
+
+map gs. cd ~/.scripts
+map gsl cd ~/.scripts/lf
+
+map gc cd ~/.config
+
