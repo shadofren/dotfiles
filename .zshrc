@@ -44,12 +44,12 @@ alias cdgo="cd /home/yuu/dev/golang"
 alias vc="sudo protonvpn-cli -c"
 alias vd="sudo protonvpn-cli -d"
 alias psql="psql -h /home/yuu/postgres/data/postgresql"
-alias vmplayer="sudo vmplayer &"
 alias vboxstart="vboxmanage startvm"
 alias vboxlist="vboxmanage list vms"
 
 alias grep="grep --color=auto"
 alias diff="diff --color=auto"
+alias capture="xclip -selection clipboard -t image/png -i"
 
 # Internet
 alias yt="youtube-dl --add-metadata -ic" # Download video link
@@ -61,9 +61,14 @@ alias getclip="xclip -selection c -o"
 # GDB
 alias gdbbt="gdb --batch --ex run --ex bt --ex q --args"
 
+# Kali
+alias kali="tmux new-session -d -s kali 'vmplayer /home/yuu/Downloads/Downloads/kali-linux-2020.1-vmware-amd64/Kali-Linux-2020.1-vmware-amd64/Kali-Linux-2020.1-vmware-amd64.vmx'"
+
 # Capture
 alias scrot="scrot -q 100"
 alias scrots="scrot -q 100 -s"
+
+alias resetkeys="setxkbmap"
 
 vf() { $EDITOR $(fzf) ;}
 
@@ -71,3 +76,4 @@ export PATH=$PATH:/opt/anaconda/bin
 export GOPATH=/home/yuu/dev/golang
 export GOBIN=/home/yuu/dev/golang/bin
 export PATH=$PATH:$GOBIN
+
