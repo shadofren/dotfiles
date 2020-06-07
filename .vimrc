@@ -12,6 +12,7 @@ Plug 'fatih/vim-go'
 Plug 'junegunn/fzf'
 Plug 'tell-k/vim-autopep8'
 Plug 'hashivim/vim-terraform'
+Plug 'tpope/vim-commentary'
 call plug#end()
 
 " Some basics:

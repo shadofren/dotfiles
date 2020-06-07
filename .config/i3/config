@@ -427,6 +427,6 @@ exec brave
 exec telegram-desktop
 exec $term -e "lf ~/Downloads"
 exec discord
-exec cherrytree
+# exec cherrytree
 
 

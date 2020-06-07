@@ -41,8 +41,8 @@ alias ref="shortcuts && source ~/.zshrc" # Refresh shortcuts manually and reload
 alias bw="wal -i ~/.config/wall.png" # Rerun pywal
 alias yc="yay -Yc"
 alias cdgo="cd /home/yuu/dev/golang"
-alias vc="sudo protonvpn-cli -c"
-alias vd="sudo protonvpn-cli -d"
+alias vc="sudo protonvpn c"
+alias vd="sudo protonvpn d"
 alias psql="psql -h /home/yuu/postgres/data/postgresql"
 alias vboxstart="vboxmanage startvm"
 alias vboxlist="vboxmanage list vms"
@@ -67,6 +67,9 @@ alias kali="tmux new-session -d -s kali 'vmplayer /home/yuu/Downloads/Downloads/
 # Capture
 alias scrot="scrot -q 100"
 alias scrots="scrot -q 100 -s"
+
+# checkip
+alias checkip="curl https://ipinfo.io/ip && curl https://ipinfo.io/country"
 
 alias resetkeys="setxkbmap"
 

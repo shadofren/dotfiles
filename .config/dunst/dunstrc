@@ -56,6 +56,19 @@
     dmenu = /usr/bin/dmenu -p dunst:
     browser = /usr/bin/firefox -new-tab
 
+    ### mouse
+
+    # Defines action of mouse event
+    # Possible values are:
+    # * none: Don't do anything.
+    # * do_action: If the notification has exactly one action, or one is marked as default,
+    #              invoke it. If there are multiple and no default, open the context menu.
+    # * close_current: Close current notification.
+    # * close_all: Close all notifications.
+    mouse_left_click = close_current
+    mouse_middle_click = do_action
+    mouse_right_click = close_all
+
     # Always run rule-defined scripts, even if the notification is suppressed
     always_run_script = true
 
