@@ -3,8 +3,8 @@ bd	~/.bmdirs
 cfb	~/.bashrc
 cfz	~/.zshrc
 cfv	~/.vimrc
-cfr	~/.config/ranger/rc.conf
 cfi	~/.config/i3/config
+cfp ~/.config/polybar/config
 cfm	~/.config/mutt/muttrc
 cfd	~/.Xdefaults
 cfu	~/.config/newsboat/urls

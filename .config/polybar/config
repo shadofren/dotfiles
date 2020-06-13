@@ -172,13 +172,13 @@ label-separator = |
 type = internal/mpd
 format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
 
-icon-prev = 
-icon-stop = 
-icon-play = 
-icon-pause = 
-icon-next = 
+icon-prev = 玲
+icon-stop = 栗
+icon-play = 契
+icon-pause = 
+icon-next = 怜
 
-label-song-maxlen = 25
+label-song-maxlen = 40
 label-song-ellipsis = true
 
 [module/xbacklight]
@@ -242,7 +242,7 @@ ramp-signal-4 = 說
 ramp-signal-foreground = ${colors.foreground-alt}
 i
 [module/eth]
-type = internal/network
+type = internal/networak
 interface = enp4s0f1
 interval = 3.0
 
@@ -364,7 +364,7 @@ animation-discharging-framerate = 750
 [module/temperature]
 type = internal/temperature
 thermal-zone = 0
-warn-temperature = 60
+warn-temperature = 75
 
 format = <ramp> <label>
 format-underline = #f50a4d
