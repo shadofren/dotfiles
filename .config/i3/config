@@ -58,22 +58,22 @@ client.focused_inactive	$transparent	$blue		$white		$darkblue		$darkblack
 client.urgent		$darkred	$darkred	$black		$darkred		$darkred
 client.background $black
 
-bar {
-	font pango:Monospace Bold 16
-	colors {
-			background $darkblack
-			statusline $darkwhite
-			separator $cyan
-			focused_workspace  $blue $darkblue $darkblack
-        		active_workspace   $blue $blue $darkwhite
-      			inactive_workspace $darkblack $darkblack $white
-        		urgent_workspace   $darkblack $darkblack $white
-		}
-	status_command i3blocks
-	position top
-	mode dock
-	modifier None
-}
+# bar {
+# 	font pango:Monospace Bold 16
+# 	colors {
+# 			background $darkblack
+# 			statusline $darkwhite
+# 			separator $cyan
+# 			focused_workspace  $blue $darkblue $darkblack
+#         		active_workspace   $blue $blue $darkwhite
+#       			inactive_workspace $darkblack $darkblack $white
+#         		urgent_workspace   $darkblack $darkblack $white
+# 		}
+# 	status_command i3blocks
+# 	position top
+# 	mode dock
+# 	modifier None
+# }
 
 # #---Basic Bindings---# #
 bindsym $mod+Return 		exec $term
@@ -172,7 +172,7 @@ bindsym $mod+Shift+c		exec --no-startup-id camtoggle
 #bindsym $mod+v
 #bindsym $mod+Shift+v
 
-bindsym $mod+b			bar mode toggle
+#bindsym $mod+b			bar mode toggle
 bindsym $mod+Shift+b		floating toggle; sticky toggle; exec --no-startup-id bottomleft
 
 bindsym $mod+n			exec $term -e newsboat && pkill -RTMIN+6 i3blocks
@@ -409,8 +409,9 @@ exec --no-startup-id dropbox
 exec brave
 # exec firefox
 exec telegram-desktop
-exec $term -e "lf ~/Downloads"
+exec $term -e lf ~/Downloads
 exec discord
 # exec cherrytree
 
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 

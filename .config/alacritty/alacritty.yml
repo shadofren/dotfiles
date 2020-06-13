@@ -9,7 +9,7 @@ window:
     x: 10
     y: 10
   decorations: none
-  gtk_theme_variant: dark
+  gtk_theme_variant: none
 
 scrolling:
   history: 10000
@@ -84,7 +84,7 @@ mouse:
       args: []
 
 mouse_bindings:
-  - { mouse: Middle, action: PasteSelection }
+  - { mouse: Middle, action: Copy }
 
 key_bindings:
   #- { key: Paste,                                action: Paste          }
