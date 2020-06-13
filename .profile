@@ -4,7 +4,7 @@
 # Adds `~/.scripts` and all subdirectories to $PATH
 export PATH="$(du "$HOME/.scripts/" | cut -f2 | tr '\n' ':')$PATH"
 export EDITOR="vim"
-export TERMINAL="terminator"
+export TERMINAL="alacritty"
 export BROWSER="brave"
 export READER="zathura"
 # PIX is here I have LARBS keep icons. Subject to change, hence a variable.

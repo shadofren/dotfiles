@@ -1,0 +1,111 @@
+env:
+  TERM: alacritty
+
+window:
+  position:
+    x: 0
+    y: 0
+  padding:
+    x: 10
+    y: 10
+  decorations: none
+  gtk_theme_variant: dark
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+font:
+  normal:
+    family: monospace
+    style: Regular
+
+  bold:
+    family: monospace
+    style: Bold
+
+  italic:
+    family: monospace
+    style: Italic
+
+  size: 12.0
+
+  offset:
+    x: -1
+    y: -1
+
+  glyph_offset:
+    x: 0
+    y: 0
+
+# Colors (Iceberg)
+colors:
+  # Default colors
+  primary:
+    background: '#161821'
+    foreground: '#d2d4de'
+
+  # Normal colors
+  normal:
+    black:   '#161821'
+    red:     '#e27878'
+    green:   '#b4be82'
+    yellow:  '#e2a478'
+    blue:    '#84a0c6'
+    magenta: '#a093c7'
+    cyan:    '#89b8c2'
+    white:   '#c6c8d1'
+
+  # Bright colors
+  bright:
+    black:   '#6b7089'
+    red:     '#e98989'
+    green:   '#c0ca8e'
+    yellow:  '#e9b189'
+    blue:    '#91acd1'
+    magenta: '#ada0d3'
+    cyan:    '#95c4ce'
+    white:   '#d2d4de'
+
+background_opacity: 0.9
+
+cursor:
+  unfocused_hollow: true
+
+live_config_reload: true
+
+mouse:
+  #double_click: { threshold: 300 }
+  #triple_click: { threshold: 300 }
+
+  url:
+    launcher:
+      program: brave
+      args: []
+
+mouse_bindings:
+  - { mouse: Middle, action: PasteSelection }
+
+key_bindings:
+  #- { key: Paste,                                action: Paste          }
+  #- { key: Copy,                                 action: Copy           }
+  #- { key: L,         mods: Control,             action: ClearLogNotice }
+  #- { key: L,         mods: Control, mode: ~Vi,  chars: "\x0c"          }
+  #- { key: PageUp,    mods: Shift,   mode: ~Alt, action: ScrollPageUp,  }
+  #- { key: PageDown,  mods: Shift,   mode: ~Alt, action: ScrollPageDown }
+  #- { key: Home,      mods: Shift,   mode: ~Alt, action: ScrollToTop,   }
+  #- { key: End,       mods: Shift,   mode: ~Alt, action: ScrollToBottom }
+
+  # (Windows, Linux, and BSD only)
+  - { key: V,        mods: Control|Shift,           action: Paste            }
+  - { key: C,        mods: Control|Shift,           action: Copy             }
+  - { key: Key0,     mods: Control,                 action: ResetFontSize    }
+  - { key: Equals,   mods: Control,                 action: IncreaseFontSize }
+  - { key: Add,      mods: Control,                 action: IncreaseFontSize }
+  - { key: Subtract, mods: Control,                 action: DecreaseFontSize }
+  - { key: Minus,    mods: Control,                 action: DecreaseFontSize }
+
+# debug:
+#   # Display the time it takes to redraw each frame.
+#   render_timer: false
+

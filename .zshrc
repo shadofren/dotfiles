@@ -31,9 +31,6 @@ alias psref="gpg-connect-agent RELOADAGENT /bye" # Refresh gpg
 
 alias v="vim"
 alias sv="sudo vim"
-alias r="ranger"
-alias sr="sudo ranger"
-alias ka="killall"
 alias g="git"
 alias trem="transmission-remote"
 alias mkd="mkdir -pv"
@@ -80,3 +77,4 @@ export GOPATH=/home/yuu/dev/golang
 export GOBIN=/home/yuu/dev/golang/bin
 export PATH=$PATH:$GOBIN
 
+pfetch

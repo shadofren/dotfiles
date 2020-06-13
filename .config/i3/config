@@ -1,21 +1,5 @@
-# vim: filetype=i3
-#  _        _    ____  ____ ____
-# | |      / \  |  _ \| __ ) ___|
-# | |     / _ \ | |_) |  _ \___ \
-# | |___ / ___ \|  _ <| |_) |__) |
-# |_____/_/   \_\_| \_\____/____/
-#
-# File originally by Luke Smith
-# Website: http://lukesmith.xyz
-# Email: luke@lukesmith.xyz
-# YouTube: https://youtube.com/c/LukeSmithxyz
-# Github: https://github.com/LukeSmithxyz
-
 # This config file will use environmental variables such as $BROWSER and $TERMINAL.
 # You can set these variables in ~/.profile or ~/.bash_profile if you have it as below:
-#
-# export BROWSER="firefox"
-# export TERMINAL="st"
 
 # #---Basic Definitions---# #
 # Needed for i3-gaps
