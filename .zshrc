@@ -1,5 +1,5 @@
 export ZSH="/home/yuu/.oh-my-zsh"
-ZSH_THEME="robbyrussell"
+ZSH_THEME="imp"
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS=true

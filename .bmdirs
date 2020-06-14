@@ -1,14 +1,11 @@
 # You can add comments to these files with #
 h	~/
-d	~/Documents
 D	~/Downloads
-o	~/Dropbox/reading
+d	~/Dropbox
 m	~/Music
 S	~/Screenshots
-b	~/books_tuts/Others
-r ~/books_tuts/read
+b	~/books_tuts/Security
 pp	~/Pictures
-vv	~/Videos
 cf	~/.config
 sc	~/.scripts
 mn	/mnt
