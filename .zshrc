@@ -68,6 +68,9 @@ alias scrots="scrot -q 100 -s"
 # checkip
 alias checkip="curl https://ipinfo.io/ip && curl https://ipinfo.io/country"
 
+# reset wall paper
+alias wall="feh --bg-scale ~/.config/wall.jpg"
+
 alias resetkeys="setxkbmap"
 
 vf() { $EDITOR $(fzf) ;}

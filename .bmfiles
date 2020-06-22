@@ -4,6 +4,8 @@ cfb	~/.bashrc
 cfz	~/.zshrc
 cfv	~/.vimrc
 cfi	~/.config/i3/config
+cfbs	~/.config/bspwm/bspwmrc
+cfk ~/.config/sxhkd/sxhkdrc
 cfp ~/.config/polybar/config
 cfm	~/.config/mutt/muttrc
 cfd	~/.Xdefaults
