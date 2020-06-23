@@ -11,7 +11,7 @@
 super + Return
 	$TERMINAL
 super + d
-	dmenu_run
+	dmenu_run -nf '#d2d4de' -sb '#d2d4de'
 super + r
 	$TERMINAL -e lf ~/Downloads
 super + e
