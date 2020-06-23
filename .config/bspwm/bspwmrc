@@ -63,8 +63,8 @@ bspc config border_width 2
 bspc config window_gap 10
 
 ###---Rules---###
-bspc rule -a Mpv state=fullscreena
+bspc rule -a Mpv state=fullscreen
 bspc rule -a Brave-browser desktop=^3
 bspc rule -a TelegramDesktop desktop=4
 bspc rule -a discord desktop=^5
-bspc rule -a Zathura desktop=^7
+bspc rule -a Zathura state=tiled desktop=^7
