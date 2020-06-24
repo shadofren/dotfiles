@@ -31,6 +31,7 @@ underline = #84a0c6
 
 [bar/bar]
 monitor = ${env:MONITOR:HDMI2}
+enable-ipc = true
 width = 100%
 height = 27
 offset-x = 0%
@@ -207,16 +208,16 @@ type = internal/backlight
 card = intel_backlight
 
 [module/packages]
-type = custom/script
-exec = pacman -Qu | wc -l
+type = custom/ipc
+hook-0 = pacman -Qu | wc -l
 click-left = $TERMINAL -e yay
-interval = 600
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = ${colors.underline}
 label = %output%
 format-background = ${colors.background-alt}
 format-padding = 1
+initial = 1
 
 [module/cpu]
 type = internal/cpu
