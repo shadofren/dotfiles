@@ -24,8 +24,7 @@ killall discord
 discord &
 killall brave
 brave &
-nitrogen --set-scaled --head=0 ~/.config/wall.jpg &
-nitrogen --set-scaled --head=1 ~/.config/wall.jpg &
+setdesktop &
 $HOME/.config/polybar/launch.sh &
 
 ###---MONITORS---###
