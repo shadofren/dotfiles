@@ -24,8 +24,8 @@ killall discord
 discord &
 killall brave
 brave &
-setdesktop &
 $HOME/.config/polybar/launch.sh &
+setdesktop &
 
 ###---MONITORS---###
 bspc monitor eDP1 -d 1 2
