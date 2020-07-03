@@ -211,6 +211,7 @@ card = intel_backlight
 type = custom/ipc
 hook-0 = pacman -Qu | wc -l
 click-left = $TERMINAL -e yay && polybar-msg hook packages 1
+click-right = polybar-msg hook packages 1
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = ${colors.underline}
