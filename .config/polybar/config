@@ -118,7 +118,7 @@ type = internal/bspwm
 
 label-focused = %name%
 label-focused-background = ${colors.background-alt}
-label-focused-underline= ${colors.primary}
+label-focused-underline= ${colors.underline}
 label-focused-padding = 3
 
 label-occupied = %name%
@@ -134,6 +134,11 @@ label-empty-padding = 2
 
 ; Separator in between workspaces
 label-separator = |
+
+; remove the global settings
+format-background =
+format-underline =
+format-padding =
 
 [module/i3]
 type = internal/i3
@@ -185,6 +190,9 @@ icon-next = 怜
 
 label-song-maxlen = 40
 label-song-ellipsis = true
+
+format-online-background =
+format-online-underline =
 
 [module/xbacklight]
 type = internal/xbacklight

@@ -72,7 +72,7 @@ alias checkip="curl https://ipinfo.io/ip && curl https://ipinfo.io/country"
 alias wall="feh --bg-scale ~/.config/wall.jpg"
 
 alias resetkeys="setxkbmap"
-
+alias resetbar="~/.config/polybar/launch.sh"
 vf() { $EDITOR $(fzf) ;}
 
 export PATH=$PATH:/opt/anaconda/bin

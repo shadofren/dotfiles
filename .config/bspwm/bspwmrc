@@ -25,6 +25,8 @@ discord &
 killall brave
 brave &
 $HOME/.config/polybar/launch.sh &
+fcitx-autostart &
+mpd &
 setdesktop &
 
 ###---MONITORS---###
