@@ -20,7 +20,7 @@ call plug#end()
 	set nocompatible
 	filetype plugin on
 	syntax on
-    set encoding=utf-8
+  set encoding=utf-8
 	set number relativenumber
 " Enable autocompletion:
 	set wildmode=longest,list,full
@@ -62,7 +62,7 @@ call plug#end()
 " Automatically deletes all trailing whitespace on save.
 	autocmd BufWritePre * %s/\s\+$//e
 
-" When shortcut files are updated, renew bash and ranger configs with new material:
+" When shortcut files are updated, renew bash and lf configs with new material:
 	autocmd BufWritePost ~/.bm* !shortcuts
 
 " Run xrdb whenever Xdefaults or Xresources are updated.

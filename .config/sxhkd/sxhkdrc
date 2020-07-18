@@ -14,16 +14,12 @@ super + d
 	dmenu_run -nf '#d2d4de' -sb '#d2d4de'
 super + r
 	$TERMINAL -e lf ~/Downloads
-super + e
-	$TERMINAL -e neomutt; pkill -RTMIN+12 blocks
 super + m
 	$TERMINAL -e ncmpcpp
 super + n
 	$TERMINAL -e newsboat
 super + c
 	$TERMINAL -e calcurse
-super + v
-	$TERMINAL -e nvim -c VimwikiIndex
 super + shift + a
 	$TERMINAL -e pulsemixer
 super + shift + c

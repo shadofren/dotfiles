@@ -59,7 +59,7 @@ alias getclip="xclip -selection c -o"
 alias gdbbt="gdb --batch --ex run --ex bt --ex q --args"
 
 # Kali
-alias kali="tmux new-session -d -s kali 'vmplayer /home/yuu/Downloads/Downloads/kali-linux-2020.1-vmware-amd64/Kali-Linux-2020.1-vmware-amd64/Kali-Linux-2020.1-vmware-amd64.vmx'"
+alias kali="tmux new-session -d -s kali 'vmplayer /home/yuu/Downloads/kali-linux-2020-2a-vmware-amd64-7z/kali-linux-2020.2a-vmware-amd64/Kali-Linux-2020.2a-amd64.vmwarevm/Kali-Linux-2020.2a-vmware-amd64.vmx'"
 
 # Capture
 alias scrot="scrot -q 100"
