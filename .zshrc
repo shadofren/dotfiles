@@ -29,7 +29,8 @@ source $HOME/.shortcuts # Load shortcut aliases
 alias sdn="sudo shutdown now"
 alias psref="gpg-connect-agent RELOADAGENT /bye" # Refresh gpg
 
-alias v="vim"
+alias v="nvim"
+alias vim="nvim"
 alias sv="sudo vim"
 alias g="git"
 alias trem="transmission-remote"

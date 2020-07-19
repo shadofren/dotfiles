@@ -22,6 +22,8 @@ call plug#end()
 	syntax on
   set encoding=utf-8
 	set number relativenumber
+  set clipboard+=unnamedplus
+
 " Enable autocompletion:
 	set wildmode=longest,list,full
 " Disables automatic commenting on newline:
@@ -46,6 +48,9 @@ call plug#end()
 " Readmes autowrap text:
 	autocmd BufRead,BufNewFile *.md set tw=79
 
+" Vertically center document when entering insert mode
+  autocmd InsertEnter * norm zz
+
 " Use urlscan to choose and open a url:
 	:noremap <leader>u :w<Home> !urlscan -r 'linkhandler {}'<CR>
 	:noremap ,, !urlscan -r 'linkhandler {}'<CR>
@@ -67,6 +72,12 @@ call plug#end()
 
 " Run xrdb whenever Xdefaults or Xresources are updated.
 	autocmd BufWritePost ~/.Xresources,~/.Xdefaults !xrdb %
+
+" Update binds when sxhkdrc is updated
+  autocmd BufWritePost *sxhkdrc !pkill -USR1 sxhkd
+
+" Save file as sudo when no sudo permissions
+cmap w!! w !sudo tee > /dev/null %
 
 " golang
 let g:go_test_show_name = 1
@@ -95,8 +106,8 @@ let g:autopep8_indent_size=2
 let g:autopep8_on_save = 1
 let g:autopep8_disable_show_diff=1
 
-" run python file on save
-autocmd BufWritePost *.py exec '!python' shellescape(@%, 1)
+" " run python file on save
+" autocmd BufWritePost *.py exec '!python' shellescape(@%, 1)
 
 " vim-terraform
 let g:terraform_fmt_on_save=1
