@@ -127,7 +127,8 @@ super + shift + space
 # focus/swap
 
 # focus the node in the given direction
-super + {_,shift + }{h,j,k,l}
+#super + {_,shift + }{h,j,k,l}
+super + {_,shift + }{Left,Down,Up,Right}
 	bspc node -{f,s} {west,south,north,east}
 
 # focus the node for the given path jump
@@ -174,8 +175,10 @@ super + shift + {y,u,i,o}
 # contract a window by moving one of its side inward
 
 # move a floating window
-super + {Left,Down,Up,Right}
+super + {h,j,k,l}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+# super + {Left,Down,Up,Right}
 
 # Toggle gaps
 super + shift + d

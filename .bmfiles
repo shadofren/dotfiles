@@ -3,7 +3,7 @@ bd	~/.bmdirs
 cfb	~/.bashrc
 cfz	~/.zshrc
 cfv	~/.vimrc
-cfi	~/.config/i3/config
+cfl	~/.config/lf/lfrc
 cfbs	~/.config/bspwm/bspwmrc
 cfk ~/.config/sxhkd/sxhkdrc
 cfp ~/.config/polybar/config

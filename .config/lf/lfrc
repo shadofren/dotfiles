@@ -1,4 +1,4 @@
-set shell sh
+set shell zsh
 set color256
 set icons true
 set drawbox true
@@ -6,7 +6,7 @@ set shellopts '-eu'
 set ifs "\n"
 set scrolloff 10
 
-set preview false
+set preview true
 set previewer ~/.scripts/lf/preview
 
 cmd open ${{
@@ -30,7 +30,7 @@ cmd extract ${{
     /home/yuu/.scripts/tools/extract $f
 }}
 
-# compress current file or selected files with tar and gunzip
+# compress current file or selected files with tar
 cmd tar ${{
     set -f
     mkdir $1
@@ -40,25 +40,38 @@ cmd tar ${{
 }}
 
 # compress current file or selected files with zip
-cmd zip ${{
-    set -f
-    mkdir $1
-    cp -r $fx $1
-    zip -r $1.zip $1
-    rm -rf $1
-}}
+#cmd zip ${{
+#    set -f
+#    mkdir $1
+#    cp -r $fx $1
+#    zip -r $1.zip $1
+#    rm -rf $1
+#}}
+cmd zip %zip -r $f.zip $f
+
+cmd dragon %dragon-drag-and-drop -a -x $fx
+cmd dragon-stay %dragon-drag-and-drop -a $fx
+cmd dragon-individual %dragon-drag-and-drop $fx
 
 map m
+map d
 
 map . set hidden!
 map D delete
+map c cut
 map x extract
 map a push %mkdir<space>
-map r push :rename<space>
+map r :rename
 map <enter> shell
 map o &mimeopen $f
 map O $mimeopen --ask $f
 map R reload
+map zi zip
+
+# Dragon Mapping
+map dr dragon
+map ds dragon-stay
+map di dragon-individual
 
 # Movement
 source ~/.config/lf/shortcuts

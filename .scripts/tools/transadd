@@ -9,4 +9,4 @@
 
 pgrep -x transmission-da || (transmission-daemon && notify-send "Starting daemon..." && sleep 3)
 
-transmission-remote -a "$@" && notify-send "Torrent added."
+transmission-remote-gtk "$@" && notify-send "Torrent added."
