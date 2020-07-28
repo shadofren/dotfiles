@@ -1,5 +1,6 @@
 HISTSIZE=100000
 HISTFILESIZE=100000
+HISTFILE=~/.zsh_history
 
 source $HOME/.shortcuts # Load shortcut aliases
 
@@ -58,7 +59,6 @@ export GOPATH=/home/yuu/dev/golang
 export GOBIN=/home/yuu/dev/golang/bin
 export PATH=$PATH:$GOBIN
 
-
 # Zsh theme
 fpath+=$HOME/.zsh/pure
 autoload -U promptinit; promptinit
@@ -68,6 +68,12 @@ zstyle :prompt:pure:git:branch color '#95c4ce'
 zstyle :prompt:pure:git:dirty color '#e9b189'
 prompt pure
 
+# Plugins
+# Load zsh-syntax-highlighting
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
+# Suggest aliases for commands
+source /usr/share/zsh/plugins/zsh-you-should-use/you-should-use.plugin.zsh 2>/dev/null
+
 # Zsh keybindings
 bindkey "^[[1;5D" backward-word
 bindkey "^[[1;5C" forward-word
@@ -75,3 +81,16 @@ bindkey '^A' beginning-of-line
 bindkey '^E' end-of-line
 bindkey '^K' kill-line
 bindkey '^U' backward-kill-line
+bindkey '^R' history-incremental-search-backward
+
+# Enable colors and change prompt:
+autoload -U colors && colors
+
+# Basic auto/tab complete:
+autoload -U compinit
+zstyle ':completion:*' menu select
+# zmodload zsh/complist
+compinit
+_comp_options+=(globdots)		# Include hidden files.
+
+pfetch
