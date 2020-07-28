@@ -1,26 +1,3 @@
-export ZSH="/home/yuu/.oh-my-zsh"
-ZSH_THEME="imp"
-
-# Uncomment the following line if pasting URLs and other text is messed up.
-# DISABLE_MAGIC_FUNCTIONS=true
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
-# Which plugins would you like to load?
-# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
-
-source $ZSH/oh-my-zsh.sh
-
 HISTSIZE=100000
 HISTFILESIZE=100000
 
@@ -81,4 +58,20 @@ export GOPATH=/home/yuu/dev/golang
 export GOBIN=/home/yuu/dev/golang/bin
 export PATH=$PATH:$GOBIN
 
-pfetch
+
+# Zsh theme
+fpath+=$HOME/.zsh/pure
+autoload -U promptinit; promptinit
+zstyle :prompt:pure:path color '#84a0c6'
+zstyle ':prompt:pure:prompt:*' color '#d2d4de'
+zstyle :prompt:pure:git:branch color '#95c4ce'
+zstyle :prompt:pure:git:dirty color '#e9b189'
+prompt pure
+
+# Zsh keybindings
+bindkey "^[[1;5D" backward-word
+bindkey "^[[1;5C" forward-word
+bindkey '^A' beginning-of-line
+bindkey '^E' end-of-line
+bindkey '^K' kill-line
+bindkey '^U' backward-kill-line
