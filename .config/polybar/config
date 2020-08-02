@@ -19,10 +19,8 @@
 
 [colors]
 background = ${xrdb:color0:#222}
-#background = #222
 background-alt = #6b7089
 foreground = ${xrdb:color7:#dfdfdf}
-#foreground = #dfdfdf
 foreground-alt = #555
 primary = #ffb52a
 secondary = #e60053
@@ -53,17 +51,17 @@ padding-left = 1
 padding-right = 2
 
 module-margin-left = 1
-module-margin-right = 1
+module-margin-right = 0
 
-font-0 = NotoSans Nerd Font:style=Regular:pixelsize=12
-font-1 = NotoEmoji Nerd Font:style=Regular:pixelsize=12
-font-2 = unifont:fontformat=truetype:size=10:antialias=false;0
-font-3 = siji:pixelsize=12;1
+font-0 = JetBrainsMono Nerd Font Mono:style=Bold:pixelsize=11
+font-1 = Noto Sans Mono:style=Regular:pixelsize=11
+font-2 = Noto Sans CJK SC:style=Regular:pixelsize=11
 
 modules-left = bspwm i3
 modules-center = mpd
-# modules-right = filesystem xbacklight alsa pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
-modules-right = pulseaudio packages memory cpu wlan eth battery temperature date
+; modules-right = filesystem xbacklight alsa pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
+; modules-right = pulseaudio packages memory cpu wlan eth battery temperature date
+modules-right = pulseaudio packages memory cpu battery temperature date
 
 tray-position = right
 tray-padding = 2
@@ -119,18 +117,18 @@ type = internal/bspwm
 label-focused = %name%
 label-focused-background = ${colors.background-alt}
 label-focused-underline= ${colors.underline}
-label-focused-padding = 3
+label-focused-padding = 2
 
 label-occupied = %name%
-label-occupied-padding = 2
+label-occupied-padding = 1
 
 label-urgent = %name%!
 label-urgent-background = ${colors.alert}
-label-urgent-padding = 2
+label-urgent-padding = 1
 
 label-empty = %name%
 label-empty-foreground = ${colors.foreground-alt}
-label-empty-padding = 2
+label-empty-padding = 1
 
 ; Separator in between workspaces
 label-separator = |
@@ -180,7 +178,8 @@ label-separator = |
 
 [module/mpd]
 type = internal/mpd
-format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
+; format-online = <label-song> <label-time> <icon-prev> <icon-stop> <toggle> <icon-next>
+format-online = <label-song> <bar-progress> <icon-prev> <icon-stop> <toggle> <icon-next>
 
 icon-prev = 玲
 icon-stop = 栗
@@ -188,11 +187,17 @@ icon-play = 契
 icon-pause = 
 icon-next = 怜
 
+label-song = %title% - %artist%
 label-song-maxlen = 40
 label-song-ellipsis = true
 
 format-online-background =
 format-online-underline =
+
+bar-progress-width = 20
+bar-progress-indicator = |
+bar-progress-fill = ─
+bar-progress-empty = ─
 
 [module/xbacklight]
 type = internal/xbacklight
@@ -259,7 +264,7 @@ ramp-signal-2 = 說
 ramp-signal-3 = 說
 ramp-signal-4 = 說
 ramp-signal-foreground = ${colors.foreground-alt}
-i
+
 [module/eth]
 type = internal/network
 interface = enp4s0f1
@@ -395,23 +400,16 @@ warn-temperature = 65
 
 format = <ramp> <label>
 format-warn = <ramp> <label-warn>
-format-warn-underline = ${self.format-underline}
-format-warn-background = ${self.format-background}
-format-warn-padding = ${self.format-padding}
-format-background = ${colors.background-alt}
-format-underline = ${colors.underline}
 format-padding = 1
-
-format-prefix-foreground = ${colors.foreground-alt}
 
 label = %temperature-c%
 label-warn = %temperature-c%
 label-warn-foreground = ${colors.secondary}
 
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
-ramp-foreground = ${colors.foreground-alt}
+ramp-0 =
+ramp-1 =
+ramp-2 = ﴦ
+; ramp-foreground = ${colors.foreground-alt}
 
 [module/powermenu]
 type = custom/menu

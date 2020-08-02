@@ -11,7 +11,6 @@ cfm	~/.config/mutt/muttrc
 cfd	~/.Xdefaults
 cfu	~/.config/newsboat/urls
 cfn	~/.config/newsboat/config
-cfA	~/.asoundrc
 cfmb	~/.config/ncmpcpp/bindings
 cfmc	~/.config/ncmpcpp/config
 cfM	~/.config/mpd/mpd.conf
