@@ -1,8 +1,0 @@
-#!/bin/bash
-
-if [[ $# != 1 ]]; then
-  echo "Usage: setwall <path to image>"
-  exit 1
-fi
-
-cp $1 $HOME/.config/wall.jpg; feh --bg-scale $HOME/.config/wall.jpg

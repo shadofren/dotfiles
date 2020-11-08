@@ -408,7 +408,7 @@ label-warn-foreground = ${colors.secondary}
 
 ramp-0 =
 ramp-1 =
-ramp-2 = ﴦ
+ramp-2 = 
 ; ramp-foreground = ${colors.foreground-alt}
 
 [module/powermenu]
