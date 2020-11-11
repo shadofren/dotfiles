@@ -2,61 +2,12 @@ HISTSIZE=100000
 HISTFILESIZE=100000
 HISTFILE=~/.zsh_history
 
+setopt autocd
+
 source $HOME/.shortcuts # Load shortcut aliases
+source $HOME/.aliases
 
-alias sdn="sudo shutdown now"
-alias psref="gpg-connect-agent RELOADAGENT /bye" # Refresh gpg
-
-alias v="nvim"
-alias vim="nvim"
-alias sv="sudo vim"
-alias g="git"
-alias trem="transmission-remote-gtk"
-alias mkd="mkdir -pv"
-alias ref="shortcuts && source ~/.zshrc" # Refresh shortcuts manually and reload zshrc
-alias yc="yay -Yc"
-alias cdgo="cd /home/yuu/dev/golang"
-alias vc="sudo protonvpn c"
-alias vd="sudo protonvpn d"
-alias psql="psql -h /home/yuu/postgres/data/postgresql"
-alias vboxstart="vboxmanage startvm"
-alias vboxlist="vboxmanage list vms"
-
-alias grep="grep --color=auto"
-alias diff="diff --color=auto"
-alias capture="xclip -selection clipboard -t image/png -i"
-
-# Internet
-alias yt="youtube-dl --add-metadata -ic" # Download video link
-alias yta="yt -x -f bestaudio/best" # Download only audio
-alias YT="youtube-viewer"
-alias setclip="xclip -selection c"
-alias getclip="xclip -selection c -o"
-
-# GDB
-alias gdbbt="gdb --batch --ex run --ex bt --ex q --args"
-
-# Kali
-alias kali="tmux new-session -d -s kali 'vmplayer /home/yuu/Downloads/kali-linux-2020-2a-vmware-amd64-7z/kali-linux-2020.2a-vmware-amd64/Kali-Linux-2020.2a-amd64.vmwarevm/Kali-Linux-2020.2a-vmware-amd64.vmx'"
-
-# Capture
-alias scrot="scrot -q 100"
-alias scrots="scrot -q 100 -s"
-
-# checkip
-alias checkip="curl https://ipinfo.io/ip && curl https://ipinfo.io/country"
-
-# reset wall paper
-alias wall="feh --bg-scale ~/.config/wall.jpg"
-
-alias resetkeys="setxkbmap"
-alias resetbar="~/.config/polybar/launch.sh"
 vf() { $EDITOR $(fzf) ;}
-
-export PATH=$PATH:/opt/anaconda/bin
-export GOPATH=/home/yuu/dev/golang
-export GOBIN=/home/yuu/dev/golang/bin
-export PATH=$PATH:$GOBIN
 
 # Zsh theme
 fpath+=$HOME/.zsh/pure
