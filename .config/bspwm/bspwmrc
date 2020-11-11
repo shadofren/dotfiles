@@ -73,8 +73,9 @@ bspc rule -a firefox desktop=^3
 bspc rule -a TelegramDesktop desktop=4
 bspc rule -a discord desktop=^5
 bspc rule -a Zathura state=tiled desktop=^7
+bspc rule -a code-oss desktop=^7
+bspc rule -a "VirtualBox Manager" desktop=^8
 bspc rule -a Steam state=tiled desktop=^9
+bspc rule -a "Vmware" desktop=^9
 bspc rule -a dota2 desktop=^10
 bspc rule -a KeePassXC desktop=^10
-bspc rule -a "VirtualBox Manager" desktop=^8
-bspc rule -a "Vmware" desktop=^9
