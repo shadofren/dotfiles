@@ -1,4 +1,3 @@
-set color256
 set icons true
 set drawbox true
 set shellopts '-eu'

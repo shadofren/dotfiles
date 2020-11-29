@@ -26,6 +26,10 @@ export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 
+# Intellij grey screen fix
+export _JAVA_AWT_WM_NONREPARENTING=1
+
+
 [ ! -f ~/.shortcuts ] && shortcuts >/dev/null 2>&1
 
 # Start graphical server if bspwm not already running.
