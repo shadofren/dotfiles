@@ -85,6 +85,7 @@ cursor-scroll = ns-resize
 type = internal/xwindow
 label = %title%
 label-maxlen = 25
+format-underline = ${colors.underline}
 
 [module/xkeyboard]
 type = internal/xkeyboard
@@ -123,6 +124,11 @@ label-focused-padding = 2
 label-occupied = %name%
 label-occupied-padding = 1
 
+label-visible = %name%
+label-visible-background = ${self.label-focused-background}
+label-visible-underline= ${self.label-focused-underline}
+label-visible-padding = ${self.label-focused-padding}
+
 label-urgent = %name%!
 label-urgent-background = ${colors.alert}
 label-urgent-padding = 1
@@ -133,11 +139,6 @@ label-empty-padding = 1
 
 ; Separator in between workspaces
 label-separator = |
-
-; remove the global settings
-format-background =
-format-underline =
-format-padding =
 
 [module/i3]
 type = internal/i3
@@ -191,9 +192,6 @@ icon-next = 怜
 label-song = %title% - %artist%
 label-song-maxlen = 40
 label-song-ellipsis = true
-
-format-online-background =
-format-online-underline =
 
 bar-progress-width = 20
 bar-progress-indicator = |
@@ -402,15 +400,19 @@ warn-temperature = 65
 format = <ramp> <label>
 format-warn = <ramp> <label-warn>
 format-padding = 1
+format-background = ${colors.background-alt}
+format-underline = ${colors.underline}
 
 label = %temperature-c%
 label-warn = %temperature-c%
 label-warn-foreground = ${colors.secondary}
+label-warn-background = ${self.format-background}
+label-warn-underline = ${self.format-underline}
+label-warn-padding = ${self.format-padding}
 
 ramp-0 =
 ramp-1 =
 ramp-2 = 
-; ramp-foreground = ${colors.foreground-alt}
 
 [module/powermenu]
 type = custom/menu
@@ -443,10 +445,11 @@ menu-2-1-exec = menu-open-0
 
 [settings]
 screenchange-reload = true
-format-background = ${colors.background-alt}
-format-underline = ${colors.underline}
-format-padding = 1
-format-prefix-foreground = ${colors.foreground-alt}
+; to avoid the issue of drawing extra upto current workspace
+; format-background = ${colors.background-alt}
+; format-underline = ${colors.underline}
+; format-padding = 1
+; format-prefix-foreground = ${colors.foreground-alt}
 ;compositing-background = xor
 ;compositing-background = screen
 ;compositing-foreground = source
