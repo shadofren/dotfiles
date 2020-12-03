@@ -226,18 +226,21 @@ hook-0 = pacman -Qu | wc -l
 click-left = $TERMINAL -e yay && polybar-msg hook packages 1
 click-right = polybar-msg hook packages 1
 format-prefix = " "
+format-underline = ${colors.underline}
 initial = 1
 
 [module/cpu]
 type = internal/cpu
 interval = 2
 format-prefix = " "
+format-underline = ${colors.underline}
 label = %percentage:2%%
 
 [module/memory]
 type = internal/memory
 interval = 2
 format-prefix = " "
+format-underline = ${colors.underline}
 label = %percentage_used%%
 
 [module/wlan]
@@ -293,6 +296,7 @@ time = %H:%M
 time-alt = %H:%M:%S
 
 format-prefix =
+format-underline = ${colors.underline}
 label = %date% %time%
 
 [module/pulseaudio]
@@ -300,7 +304,6 @@ type = internal/pulseaudio
 
 format-volume = <label-volume> <bar-volume>
 format-volume-underline = ${colors.underline}
-format-volume-background = ${colors.background-alt}
 format-volume-padding = 1
 label-volume =  %percentage%%
 label-volume-foreground = ${root.foreground}
@@ -400,7 +403,6 @@ warn-temperature = 65
 format = <ramp> <label>
 format-warn = <ramp> <label-warn>
 format-padding = 1
-format-background = ${colors.background-alt}
 format-underline = ${colors.underline}
 
 label = %temperature-c%
