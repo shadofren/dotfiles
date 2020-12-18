@@ -289,13 +289,12 @@ format-disconnected =
 type = internal/date
 interval = 5
 
-date =
-date-alt = " %Y-%m-%d"
+date = ""
+date-alt = "%Y-%m-%d"
 
 time = %H:%M
 time-alt = %H:%M:%S
 
-format-prefix =
 format-underline = ${colors.underline}
 label = %date% %time%
 
@@ -400,8 +399,8 @@ type = internal/temperature
 thermal-zone = 0
 warn-temperature = 65
 
-format = <ramp> <label>
-format-warn = <ramp> <label-warn>
+format = <label>
+format-warn = <label-warn>
 format-padding = 1
 format-underline = ${colors.underline}
 

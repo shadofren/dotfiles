@@ -6,6 +6,8 @@ bspc rule -r "*"
 ###---Autostart---###
 killall nm-applet
 nm-applet &
+killall blueman-applet
+blueman-applet &
 xrdb ~/.Xresources &
 xrandr --output eDP1 --auto --left-of HDMI2 &
 killall sxhkd

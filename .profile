@@ -36,4 +36,4 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 [ "$(tty)" = "/dev/tty1" ] && ! pgrep -x bspwm >/dev/null && exec startx
 
 # Switch escape and caps and use wal colors if tty:
-sudo -n loadkeys ~/.scripts/ttymaps.kmap 2>/dev/null
+# sudo -n loadkeys ~/.scripts/ttymaps.kmap 2>/dev/null
