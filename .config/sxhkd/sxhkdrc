@@ -28,6 +28,8 @@ super + w
 	$TERMINAL -e sudo nmtui
 super + shift + w
 	$BROWSER
+super + a
+	$TERMINAL -e python
 
 super + Insert
 	showclip
