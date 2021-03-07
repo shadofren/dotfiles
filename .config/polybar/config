@@ -190,7 +190,7 @@ icon-pause = 
 icon-next = 怜
 
 label-song = %title% - %artist%
-label-song-maxlen = 40
+label-song-maxlen = 25
 label-song-ellipsis = true
 
 bar-progress-width = 20

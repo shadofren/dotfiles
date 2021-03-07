@@ -16,9 +16,14 @@ alias psql="psql -h /home/yuu/postgres/data/postgresql"
 alias vboxstart="vboxmanage startvm"
 alias vboxlist="vboxmanage list vms"
 
+mcd () { mkdir -p -- "$1" && cd -- "$1" }
+
 alias grep="grep --color=auto"
 alias diff="diff --color=auto"
 alias capture="xclip -selection clipboard -t image/png -i"
+
+alias ls='ls --color=tty'
+alias grep='grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn}'
 
 alias backup='sudo rsync -avh ~/books_tuts/ backup --delete && sudo rsync -avh ~/vmware/Windows\ 10\ x64/ backup --delete'
 # Internet
@@ -43,6 +48,11 @@ alias checkip="curl https://ipinfo.io/ip && curl https://ipinfo.io/country"
 
 # # reset wall paper
 # alias wall="feh --bg-scale ~/.config/wall.jpg"
+
+# kubernetes
+alias k=kubectl
+alias kcd='kubectl config set-context $(kubectl config current-context) --namespace '
+alias ke=kubeval
 
 alias resetkeys="setxkbmap"
 alias resetbar="~/.config/polybar/launch.sh"
