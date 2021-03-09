@@ -6,6 +6,7 @@
 let mapleader =" "
 
 call plug#begin('~/.vim/plugged')
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'fatih/vim-go'
 Plug 'junegunn/fzf'
 Plug 'tell-k/vim-autopep8'
@@ -15,6 +16,7 @@ Plug 'chrisbra/Colorizer'
 Plug 'airblade/vim-gitgutter'
 Plug 'vimwiki/vimwiki'
 " Plug 'plasticboy/vim-markdown'
+Plug 'arcticicestudio/nord-vim'
 call plug#end()
 
 " Some basics:
@@ -24,6 +26,7 @@ call plug#end()
   set encoding=utf-8
   set number relativenumber
   set clipboard+=unnamedplus
+  colorscheme nord
 
 " Enable autocompletion:
   set wildmode=longest,list,full
