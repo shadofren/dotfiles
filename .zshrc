@@ -12,10 +12,10 @@ vf() { $EDITOR $(fzf) ;}
 # Zsh theme
 fpath+=$HOME/.zsh/pure
 autoload -U promptinit; promptinit
-zstyle :prompt:pure:path color '#84a0c6'
-zstyle ':prompt:pure:prompt:*' color '#d2d4de'
-zstyle :prompt:pure:git:branch color '#95c4ce'
-zstyle :prompt:pure:git:dirty color '#e9b189'
+zstyle :prompt:pure:path color '#88c0d0'
+zstyle ':prompt:pure:prompt:*' color '#5e81ac'
+zstyle :prompt:pure:git:branch color '#b48ead'
+zstyle :prompt:pure:git:dirty color '#d08770'
 prompt pure
 
 # Plugins
