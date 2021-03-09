@@ -18,14 +18,13 @@
 
 
 [colors]
-background = ${xrdb:color0:#222}
-background-alt = #6b7089
-foreground = ${xrdb:color7:#dfdfdf}
-foreground-alt = #555
+background = ${xrdb:background:#222}
+background-alt = #434c5e
+foreground = ${xrdb:foreground:#dfdfdf}
+foreground-alt = #d8dee9
 primary = #ffb52a
-secondary = #e60053
-alert = #bd2c40
-underline = #84a0c6
+alert = ${xrdb:color1:#bd2c40}
+underline = ${xrdb:color15:#84a0c6}
 
 
 [bar/bar]
@@ -93,15 +92,15 @@ blacklist-0 = num lock
 
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-format-prefix-underline = ${colors.secondary}
+format-prefix-underline = ${colors.underline}
 
 label-layout = %layout%
-label-layout-underline = ${colors.secondary}
+label-layout-underline = ${colors.underline}
 
 label-indicator-padding = 2
 label-indicator-margin = 1
-label-indicator-background = ${colors.secondary}
-label-indicator-underline = ${colors.secondary}
+label-indicator-background = ${colors.underline}
+label-indicator-underline = ${colors.underline}
 
 [module/filesystem]
 type = internal/fs
@@ -406,7 +405,7 @@ format-underline = ${colors.underline}
 
 label = %temperature-c%
 label-warn = %temperature-c%
-label-warn-foreground = ${colors.secondary}
+label-warn-foreground = ${colors.underline}
 label-warn-background = ${self.format-background}
 label-warn-underline = ${self.format-underline}
 label-warn-padding = ${self.format-padding}
@@ -423,9 +422,9 @@ expand-right = true
 format-spacing = 1
 
 label-open = 
-label-open-foreground = ${colors.secondary}
+label-open-foreground = ${colors.underline}
 label-close =  cancel
-label-close-foreground = ${colors.secondary}
+label-close-foreground = ${colors.underline}
 label-separator = |
 label-separator-foreground = ${colors.foreground-alt}
 
