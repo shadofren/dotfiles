@@ -19,9 +19,9 @@
 
 [colors]
 background = ${xrdb:background:#222}
-background-alt = #434c5e
+background-alt = ${xrdb:color0:#434c5e}
 foreground = ${xrdb:foreground:#dfdfdf}
-foreground-alt = #d8dee9
+foreground-alt = #a5abb6
 primary = #ffb52a
 alert = ${xrdb:color1:#bd2c40}
 underline = ${xrdb:color15:#84a0c6}

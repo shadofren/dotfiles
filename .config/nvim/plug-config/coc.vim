@@ -150,3 +150,20 @@ nnoremap <silent><nowait> <space>a  :<C-u>CocList diagnostics<cr>
 nnoremap <silent><nowait> <space>c  :<C-u>CocList commands<cr>
 " Find symbol of current document.
 nnoremap <silent><nowait> <space>o  :<C-u>CocList outline<cr>
+
+" Explorer
+let g:coc_explorer_global_presets = {
+\   '.vim': {
+\     'root-uri': '~/.vim',
+\   },
+\   'tab': {
+\     'position': 'tab',
+\     'quit-on-open': v:true,
+\   },
+\   'simplify': {
+\     'file-child-template': '[selection | clip | 1] [indent][icon | 1] [filename omitCenter 1]'
+\   }
+\ }
+
+nmap <space>e :CocCommand explorer<CR>
+autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
