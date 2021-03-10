@@ -8,7 +8,8 @@ let mapleader =" "
 call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'fatih/vim-go'
-Plug 'junegunn/fzf'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 Plug 'tell-k/vim-autopep8'
 " Plug 'hashivim/vim-terraform'
 Plug 'tpope/vim-commentary'
@@ -102,8 +103,6 @@ set softtabstop=2
 set shiftwidth=2
 set expandtab
 
-" fuzzy find
-nnoremap <leader>f :<C-u>FZF<CR>
 
 " autopep8 for python code formatting
 let g:autopep8_indent_size=2
@@ -143,3 +142,34 @@ let g:gitgutter_map_keys = 0
 " vim-wiki
 let g:vimwiki_list = [{'path': '~/vimwiki/md/',
       \ 'syntax': 'markdown', 'ext': '.md'}]
+
+" fuzzy find
+
+" home folder is under gitignore, need to put noignore
+command! -bang -nargs=* Rg
+  \ call fzf#vim#grep(
+  \   'rg --column --line-number --no-heading --color=always --smart-case --no-ignore-vcs -- '.shellescape(<q-args>), 1,
+  \   fzf#vim#with_preview(), <bang>0)
+
+nnoremap <leader>f :<C-u>FZF<CR>
+nnoremap <leader>g :Rg<CR>
+let $FZF_DEFAULT_OPTS = '--layout=reverse --info=inline'
+let g:fzf_tags_command = 'ctags -R'
+
+" Customize fzf colors to match your color scheme
+let g:fzf_colors =
+\ { 'fg':      ['fg', 'Normal'],
+  \ 'bg':      ['bg', 'Normal'],
+  \ 'hl':      ['fg', 'Comment'],
+  \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
+  \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
+  \ 'hl+':     ['fg', 'Statement'],
+  \ 'info':    ['fg', 'PreProc'],
+  \ 'border':  ['fg', 'Ignore'],
+  \ 'prompt':  ['fg', 'Conditional'],
+  \ 'pointer': ['fg', 'Exception'],
+  \ 'marker':  ['fg', 'Keyword'],
+  \ 'spinner': ['fg', 'Label'],
+  \ 'header':  ['fg', 'Comment'] }
+
+
