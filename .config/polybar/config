@@ -18,13 +18,20 @@
 
 
 [colors]
-background = ${xrdb:background:#222}
-background-alt = ${xrdb:color0:#434c5e}
-foreground = ${xrdb:foreground:#dfdfdf}
-foreground-alt = #a5abb6
-primary = #ffb52a
-alert = ${xrdb:color1:#bd2c40}
-underline = ${xrdb:color15:#84a0c6}
+; nord0
+background = #2E3440
+; nord2
+background-alt = #434c5e
+; nord4
+foreground = #D8DEE9
+; nord6
+foreground-alt = #ECEFF4
+; nord5
+primary = #e5e9f0
+; nord11
+alert = #bf616a
+; nord8
+underline = #88c0d0
 
 
 [bar/bar]
@@ -116,7 +123,7 @@ label-unmounted-foreground = ${colors.foreground-alt}
 type = internal/bspwm
 
 label-focused = %name%
-label-focused-background = ${colors.background-alt}
+label-focused-background = ${colors.background}
 label-focused-underline= ${colors.underline}
 label-focused-padding = 2
 
@@ -402,10 +409,11 @@ format = <label>
 format-warn = <label-warn>
 format-padding = 1
 format-underline = ${colors.underline}
+format-background = ${colors.background}
 
 label = %temperature-c%
 label-warn = %temperature-c%
-label-warn-foreground = ${colors.underline}
+label-warn-foreground = ${colors.alert}
 label-warn-background = ${self.format-background}
 label-warn-underline = ${self.format-underline}
 label-warn-padding = ${self.format-padding}

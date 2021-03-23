@@ -2,6 +2,7 @@
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
   "python.linting.lintOnSave": true,
+  "python.trace.server": "verbose",
 
   // explorer
   "explorer.width": 30,
@@ -10,5 +11,10 @@
   "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
-  }
+  },
+
+  // yaml
+  "yaml.format.enable": true,
+
+  "coc.preferences.enableMarkdown": true
 }

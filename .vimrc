@@ -24,6 +24,7 @@ call plug#end()
   set nocompatible
   filetype plugin on
   syntax on
+  set hidden
   set encoding=utf-8
   set number relativenumber
   set clipboard+=unnamedplus
@@ -146,7 +147,7 @@ let g:vimwiki_list = [{'path': '~/vimwiki/md/',
 " fuzzy find
 
 " home folder is under gitignore, need to put noignore
-command! -bang -nargs=* Rg
+command! -bang -nargs=* Rgi
   \ call fzf#vim#grep(
   \   'rg --column --line-number --no-heading --color=always --smart-case --no-ignore-vcs -- '.shellescape(<q-args>), 1,
   \   fzf#vim#with_preview(), <bang>0)

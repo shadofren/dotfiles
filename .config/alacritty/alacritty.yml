@@ -1,6 +1,13 @@
 env:
   TERM: xterm-256color
 
+shell:
+  program: /bin/zsh
+  args:
+    - --login
+    - -c
+    - tmux
+
 window:
   position:
     x: 0
