@@ -3,10 +3,10 @@ env:
 
 shell:
   program: /bin/zsh
-  args:
-    - --login
-    - -c
-    - tmux
+  # args:
+  #   - --login
+  #   - -c
+  #   - tmux
 
 window:
   position:
