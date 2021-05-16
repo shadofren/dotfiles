@@ -15,6 +15,20 @@
           "directory": "/tmp/ccls"
         }
       }
+    },
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"],
+      "initializationOptions": {
+        "usePlaceholders": true
+      }
+    },
+    "bash": {
+      "command": "/home/yuu/.npm-global/bin/bash-language-server",
+      "args": ["start"],
+      "filetypes": ["sh"],
+      "ignoredRootPaths": ["~"]
     }
   },
   "python.linting.enabled": true,
@@ -39,5 +53,5 @@
   "coc.preferences.enableMarkdown": true,
 
   // autoformat
-  "coc.preferences.formatOnSaveFiletypes": ["json", "markdown"]
+  "coc.preferences.formatOnSaveFiletypes": ["json", "markdown", "c"]
 }

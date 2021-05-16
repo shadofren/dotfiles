@@ -70,6 +70,7 @@ map o &mimeopen $f
 map O $mimeopen --ask $f
 map R reload
 map zi zip
+map C clear
 
 # Dragon Mapping
 map dr dragon

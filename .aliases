@@ -1,9 +1,9 @@
 alias sdn="sudo shutdown now"
 alias psref="gpg-connect-agent RELOADAGENT /bye" # Refresh gpg
 
+alias p="paru"
 alias v="nvim"
-alias vim="nvim"
-alias sv="sudo vim"
+alias sv="sudo nvim"
 alias g="git"
 alias trem="transmission-remote-gtk"
 alias mkd="mkdir -pv"
@@ -25,7 +25,12 @@ alias capture="xclip -selection clipboard -t image/png -i"
 alias ls='ls --color=tty'
 alias grep='grep --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn}'
 
-alias backup='sudo rsync -avh ~/books_tuts/ backup --delete && sudo rsync -avh ~/vmware/Windows\ 10\ x64/ backup --delete'
+backup () {
+  sudo mount "$1" /mnt/backup && \
+  sudo rsync -avh ~/books_tuts/ /mnt/backup/book_tuts --delete && \
+  sudo umount "$1"
+}
+
 # Internet
 alias yt="youtube-dl --add-metadata -ic" # Download video link
 alias yta="yt -x -f bestaudio/best" # Download only audio

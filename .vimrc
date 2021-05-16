@@ -29,6 +29,7 @@ call plug#end()
   set number relativenumber
   set clipboard+=unnamedplus
   colorscheme nord
+  set textwidth=120
 
 " Enable autocompletion:
   set wildmode=longest,list,full
@@ -173,4 +174,6 @@ let g:fzf_colors =
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
 
+
+nmap <leader><TAB> :tabNext<CR>
 

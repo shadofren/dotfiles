@@ -166,4 +166,13 @@ let g:coc_explorer_global_presets = {
 \ }
 
 nmap <space>e :CocCommand explorer<CR>
+
+" Jump to next/prev error
+nmap <space>j <Plug>(coc-diagnostic-next-error)
+nmap <space>k <Plug>(coc-diagnostic-prev-error)
+
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
+
+" Delegate definition goto to lsp server
+let g:go_def_mapping_enabled = 0
+
