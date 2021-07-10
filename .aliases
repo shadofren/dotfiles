@@ -8,10 +8,7 @@ alias g="git"
 alias trem="transmission-remote-gtk"
 alias mkd="mkdir -pv"
 alias ref="shortcuts && source ~/.zshrc" # Refresh shortcuts manually and reload zshrc
-alias yc="yay -Yc"
 alias cdgo="cd /home/yuu/dev/golang"
-alias vc="sudo protonvpn c"
-alias vd="sudo protonvpn d"
 alias psql="psql -h /home/yuu/postgres/data/postgresql"
 alias vboxstart="vboxmanage startvm"
 alias vboxlist="vboxmanage list vms"
@@ -33,7 +30,7 @@ backup () {
 
 # Internet
 alias yt="youtube-dl --add-metadata -ic" # Download video link
-alias yta="yt -x -f bestaudio/best" # Download only audio
+alias yta="youtube-dl -x --audio-format mp3" # Download only audio
 alias YT="youtube-viewer"
 alias setclip="xclip -selection c"
 alias getclip="xclip -selection c -o"

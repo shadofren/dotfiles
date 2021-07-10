@@ -16,7 +16,8 @@ Plug 'tpope/vim-commentary'
 Plug 'chrisbra/Colorizer'
 Plug 'airblade/vim-gitgutter'
 Plug 'vimwiki/vimwiki'
-" Plug 'plasticboy/vim-markdown'
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
 Plug 'arcticicestudio/nord-vim'
 call plug#end()
 
@@ -55,8 +56,9 @@ call plug#end()
 " Readmes autowrap text:
   autocmd BufRead,BufNewFile *.md set tw=79
 
-" Vertically center document when entering insert mode
-  autocmd InsertEnter * norm zz
+" " Vertically center document when entering insert mode
+" " Disabled because it cause visual overlapping when using lsp
+"   autocmd InsertEnter * norm zz
 
 " Use urlscan to choose and open a url:
   :noremap <leader>u :w<Home> !urlscan -r 'linkhandler {}'<CR>
@@ -176,4 +178,9 @@ let g:fzf_colors =
 
 
 nmap <leader><TAB> :tabNext<CR>
+
+" vim-markdown used only for syntax hightlighting
+let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_no_default_key_mappings = 1
+" let g:vim_markdown_fenced_languages = []
 
