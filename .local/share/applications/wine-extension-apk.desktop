@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=MEmu Multiple Instances Manager
-MimeType=application/vnd.android.package-archive;
-Exec=env WINEPREFIX="/home/yuu/.wine" wine start /ProgIDOpen apkfile %f
-NoDisplay=true
-StartupNotify=true
-Icon=5997_MEmuConsole.0

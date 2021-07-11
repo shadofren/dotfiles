@@ -1,0 +1,8 @@
+#!/usr/bin/env zsh
+pushd $DOTFILES
+for folder in $(cat packages)
+do
+    stow -D $folder
+    stow $folder
+done
+popd

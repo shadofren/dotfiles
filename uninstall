@@ -1,0 +1,7 @@
+pushd $DOTFILES
+for folder in $(ls)
+do
+    echo "Removing $folder"
+    stow -D $folder
+done
+popd
